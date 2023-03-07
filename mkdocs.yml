@@ -1,0 +1,62 @@
+site_name: REV23 X Docs
+site_description: 'REV23 X Docs'
+site_author: 'REV23'
+site_url: 'https://docs.rev23.com/rev23-cloudapp-docs/'
+
+markdown_extensions:
+  - meta
+  - toc
+  - tables
+  - fenced_code
+  - smarty
+  - sane_lists
+
+# Copyright
+copyright: 'Copyright &copy; 2022 REV23'
+
+#Navigation
+nav:
+    - Home: index.md
+    - Introduction: introduction.md
+    - Concepts:
+      - 'Customers': concepts/customers.md
+      - 'Services': concepts/services.md
+      - 'Kiosk': concepts/kiosk.md
+      - 'Leads': concepts/leads.md
+      - 'Templates': concepts/templates.md
+      - 'Users': concepts/users.md
+      - 'Studios': concepts/studios.md
+      - 'Webhooks': concepts/webhooks.md
+    - About:
+      - 'License': license.md
+      - 'Release Notes': release-notes.md
+
+# Theme
+theme: 
+  logo: 'img/logo.svg'
+  name: material
+  palette:
+    primary: 'blue'
+    accent: 'pink'
+  favicon: 'img/favicon.ico'
+
+#Repository
+repo_name: 'rev23docs/rev23-cloudapp-docs'
+repo_url: 'https://github.com/rev23docs/rev23-cloudapp-docs'
+
+# Customization
+extra:
+  social:
+    - icon: 'fontawesome/brands/instagram'
+      link: 'https://instagram.com/rev23dev'
+    - icon: 'fontawesome/brands/facebook'
+      link: 'https://facebook.com/rev23dev'
+    - icon: 'fontawesome/brands/github'
+      link: 'https://github.com/rev23docs'
+  disqus: 'rev23docs'
+
+# Google Analytics
+extra:
+  analytics:
+    provider: google
+    property: UA-127274992-1
