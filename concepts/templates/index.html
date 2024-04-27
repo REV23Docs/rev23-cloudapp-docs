@@ -1,0 +1,1889 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="REV23 (CloudApp) Docs">
+      
+      
+        <meta name="author" content="REV23">
+      
+      
+        <link rel="canonical" href="https://docs.rev23.com/rev23-cloudapp-docs/concepts/templates/">
+      
+      
+        <link rel="prev" href="../leads/">
+      
+      
+        <link rel="next" href="../users/">
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.19">
+    
+    
+      
+        <title>Templates - REV23 (CloudApp) Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.66ac8b77.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function n(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],n("js",new Date),n("config","UA-127274992-1"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&n("event","search",{search_term:this.value})}),document$.subscribe(function(){var a=document.forms.feedback;if(void 0!==a)for(var e of a.querySelectorAll("[type=submit]"))e.addEventListener("click",function(e){e.preventDefault();var t=document.location.pathname,e=this.getAttribute("data-md-value");n("event","feedback",{page:t,data:e}),a.firstElementChild.disabled=!0;e=a.querySelector(".md-feedback__note [data-md-value='"+e+"']");e&&(e.hidden=!1)}),a.hidden=!1}),location$.subscribe(function(e){n("config","UA-127274992-1",{page_path:e.pathname})})});var e=document.createElement("script");e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=UA-127274992-1",document.getElementById("__analytics").insertAdjacentElement("afterEnd",e)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="pink">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#templates" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="REV23 (CloudApp) Docs" class="md-header__button md-logo" aria-label="REV23 (CloudApp) Docs" data-md-component="logo">
+      
+  <img src="../../img/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            REV23 (CloudApp) Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Templates
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/rev23docs/rev23-cloudapp-docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    rev23docs/rev23-cloudapp-docs
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="REV23 (CloudApp) Docs" class="md-nav__button md-logo" aria-label="REV23 (CloudApp) Docs" data-md-component="logo">
+      
+  <img src="../../img/logo.svg" alt="logo">
+
+    </a>
+    REV23 (CloudApp) Docs
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/rev23docs/rev23-cloudapp-docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    rev23docs/rev23-cloudapp-docs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../introduction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Concepts
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Concepts
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../customers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Customers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../services/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Services
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../service-sessions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Service Sessions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kiosk/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kiosk
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../leads/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Leads
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Templates
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Templates
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#template-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Template Options
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Template Options">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#release-form-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Release Form Options
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#age-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Age Requirements
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#startfinish-messages" class="md-nav__link">
+    <span class="md-ellipsis">
+      Start/Finish Messages
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sections" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sections
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#blocks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Blocks
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Blocks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#paragraph" class="md-nav__link">
+    <span class="md-ellipsis">
+      Paragraph
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#initials-entry" class="md-nav__link">
+    <span class="md-ellipsis">
+      Initials Entry
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#text-entry" class="md-nav__link">
+    <span class="md-ellipsis">
+      Text Entry
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multi-line-text-entry" class="md-nav__link">
+    <span class="md-ellipsis">
+      Multi-Line Text Entry
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#select-entry" class="md-nav__link">
+    <span class="md-ellipsis">
+      Select Entry
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#yesno-entry" class="md-nav__link">
+    <span class="md-ellipsis">
+      Yes/No Entry
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#yesno-text-entry" class="md-nav__link">
+    <span class="md-ellipsis">
+      Yes/No &amp; Text Entry
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#datetime-entry" class="md-nav__link">
+    <span class="md-ellipsis">
+      Date/Time Entry
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#date-entry" class="md-nav__link">
+    <span class="md-ellipsis">
+      Date Entry
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#time-entry" class="md-nav__link">
+    <span class="md-ellipsis">
+      Time Entry
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#photo-upload" class="md-nav__link">
+    <span class="md-ellipsis">
+      Photo Upload
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#document-upload" class="md-nav__link">
+    <span class="md-ellipsis">
+      Document Upload
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#template-mappings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Template Mappings
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../template-mappings.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Template Mappings
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../users/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Users
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-service-types/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    User Service Types
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../webhooks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Webhooks
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Settings
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Settings
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Tattooing
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            Tattooing
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../settings/tattooing/grips/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Grips
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../settings/tattooing/inks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inks
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../settings/tattooing/ink-colors/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ink Colors
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../settings/tattooing/ink-manufacturers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ink Manufacturers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../settings/tattooing/salves/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Salves
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../settings/tattooing/tubes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tubes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Piercing
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            Piercing
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../settings/piercing/jewelry-types/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Jewelry Types
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../settings/piercing/jewelry-manufacturers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Jewelry Manufacturers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../settings/piercing/jewelry-materials/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Jewelry Materials
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../settings/piercing/gem-colors/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gem Colors
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../settings/piercing/gem-settings/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gem Settings
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../settings/piercing/gauges/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gauges
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../settings/piercing/lenghts-diameters.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lengths & Diameters
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Needles
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            Needles
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../settings/needles/needles/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Needles
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../settings/needles/needle-manufacturers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Needle Manufacturers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../settings/medical-conditions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Medical Conditions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../settings/service-types/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Service Types
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../settings/sources/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sources
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../settings/studios/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Studios
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../settings/users/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Users
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            About
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    License
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../release-notes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Release Notes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#template-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Template Options
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Template Options">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#release-form-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Release Form Options
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#age-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Age Requirements
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#startfinish-messages" class="md-nav__link">
+    <span class="md-ellipsis">
+      Start/Finish Messages
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sections" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sections
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#blocks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Blocks
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Blocks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#paragraph" class="md-nav__link">
+    <span class="md-ellipsis">
+      Paragraph
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#initials-entry" class="md-nav__link">
+    <span class="md-ellipsis">
+      Initials Entry
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#text-entry" class="md-nav__link">
+    <span class="md-ellipsis">
+      Text Entry
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multi-line-text-entry" class="md-nav__link">
+    <span class="md-ellipsis">
+      Multi-Line Text Entry
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#select-entry" class="md-nav__link">
+    <span class="md-ellipsis">
+      Select Entry
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#yesno-entry" class="md-nav__link">
+    <span class="md-ellipsis">
+      Yes/No Entry
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#yesno-text-entry" class="md-nav__link">
+    <span class="md-ellipsis">
+      Yes/No &amp; Text Entry
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#datetime-entry" class="md-nav__link">
+    <span class="md-ellipsis">
+      Date/Time Entry
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#date-entry" class="md-nav__link">
+    <span class="md-ellipsis">
+      Date Entry
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#time-entry" class="md-nav__link">
+    <span class="md-ellipsis">
+      Time Entry
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#photo-upload" class="md-nav__link">
+    <span class="md-ellipsis">
+      Photo Upload
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#document-upload" class="md-nav__link">
+    <span class="md-ellipsis">
+      Document Upload
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#template-mappings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Template Mappings
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="templates">Templates</h1>
+<p>Templates represent the document flow of your release form. A template design contains one or more section, and a secton contains one or more blocks.</p>
+<p>The outline of a template design looks like this</p>
+<pre><code>Design
+    └─ Start Message
+    └─ Section (At least one section is required)
+        └─ Block (At least one block is required per section)
+        └─ Block
+        └─ Block
+    └─ Section
+        └─ Block
+        └─ Block
+    └─ Finish Message
+</code></pre>
+<p>A _<strong>section</strong> is a group of blocks.</p>
+<p>A <strong>block</strong> is a paragraph you want your customer to read, a statement you want them to agree to, or a question for them to answer.</p>
+<p>Depending on your needs your template may have one section and one paragraph block, or it may be broken down into multiple sections with a full length questionnaire. This is entirely up to you!</p>
+<h2 id="template-options">Template Options</h2>
+<ul>
+<li>
+<p><strong>Version Name</strong>: The name of the template version (multiple version support coming soon). This allows you to have multiple versions of a template for historical reasons, setting only one to be the active one. You can use version numbers like 1.0, 2.0, or dates such as 2024-Jan-1. Whatever makes this most sense to you.</p>
+</li>
+<li>
+<p><strong>Title</strong>: The title of the template which will be printed on the top of the generated document.</p>
+</li>
+<li>
+<p><strong>Paper Kind</strong>: The size of paper you wish to generate the document with for printing purposes.</p>
+<ul>
+<li>Letter</li>
+<li>Legal</li>
+<li>A4</li>
+</ul>
+</li>
+<li>
+<p><strong>Show Logo</strong>: If checked, your studio logo (if available) will be printed on the generated document.</p>
+</li>
+</ul>
+<h3 id="release-form-options">Release Form Options</h3>
+<p>Release Form templates have additional settings.</p>
+<ul>
+<li>
+<p><strong>Required Age/Minimum Age</strong>: See <a href="#age-requirements">age requirements</a>.</p>
+</li>
+<li>
+<p><strong>Prompt Emergency Contact</strong>: If checked, the form will prompt the customer for an optional emergency contact.</p>
+</li>
+<li>
+<p><strong>Prompt Physician Contact</strong>: If checked, the form will prompt the customer for an optional physician contact.</p>
+</li>
+<li>
+<p><strong>Require Provider Signature</strong>: If checked, the form will require a signature from the provider/artist.</p>
+</li>
+<li>
+<p><strong>Require Minor Signature</strong>: If checked, the form will require a signature from the minor, in addition to the parent/guardian signature.</p>
+</li>
+<li>
+<p><strong>Show Medical Conditions</strong>: If checked, the medical conditions table will be shown on the generated document.</p>
+</li>
+</ul>
+<p><a name="age-requirements"></a></p>
+<h3 id="age-requirements">Age Requirements</h3>
+<p>You can specify the customer age rules for filling out a form within the template. There are two settings to control the behavior of the form.</p>
+<ol>
+<li>
+<p><strong>Required Age</strong>: This is the required age in order to fill out this form without a parent or guardian. In most cases, this is 18.</p>
+</li>
+<li>
+<p><strong>Minimum Age</strong>: This is the minimum age required to fill out this form <em>with</em> a parent or guardian.</p>
+<ul>
+<li><strong>If blank</strong>, this means that even if a parent/guardian is present, you do not offer this service. For example, if you do not tattoo minors, period, leave this blank.</li>
+<li><strong>If set</strong>, this is the minimum age that is able to fill out this form. For example, if you pierce minors, but require they be at least 8 years old, set this to 8. If you have no minimum, set this to 0.</li>
+</ul>
+</li>
+</ol>
+<h2 id="startfinish-messages">Start/Finish Messages</h2>
+<p>Each template has two designated sections on the top (start message) and bottom (finish message). These allow you to provide instructions for filling out the form, as well as instructions for after the form has been completed. These do not show up on your release form and are cues to customer via the user interface only.</p>
+<h2 id="sections">Sections</h2>
+<p>A section is a logical group of blocks. Each section can have its own specific options to control the layout and flow of the release form, both when filled out by your customer, and how it is rendered on the final PDF.</p>
+<ul>
+<li><strong>Title</strong>: The title of the section. This shows in Kiosk, as well as a title on the generated document.</li>
+<li><strong>Break Page</strong>: If checked, this section will begin a new page on the generated document.</li>
+<li><strong>Parent/Guardian Section</strong>: If checked, this section will only appear in instances where a guardian is required. It will not be shown in Kiosk or on the generated document if the customer meets the <a href="#age-requirements">age requirements</a>.</li>
+</ul>
+<h2 id="blocks">Blocks</h2>
+<p>Blocks represent the actual content on a form. A block can be a paragraph of text, or a question you want the customer to answer. Blocks allow for an extremely customizable and flexible form.</p>
+<p>Below we will discuss each block type and their behavior. Some blocks have additional options. Common options include</p>
+<ul>
+<li><strong>Required</strong>: If checked, a value must be provided.</li>
+<li><strong>Review</strong>: If checked, this block and its response will be shown to the provider in the service. These are important question responses you want to ensure the provider sees an answer to.</li>
+</ul>
+<h3 id="paragraph">Paragraph</h3>
+<p>A block of text for the customer to read. This can be a single line, or multiple lines and paragraphs.</p>
+<h3 id="initials-entry">Initials Entry</h3>
+<p>A block that requests the initials of the customer be typed in.</p>
+<ul>
+<li>Supports Required</li>
+<li>Supports Review</li>
+</ul>
+<blockquote>
+<p>Note: If placed in a parent/guardian section, the initials requested will be that of the parent/guardian name.</p>
+</blockquote>
+<h3 id="text-entry">Text Entry</h3>
+<p>A block that allows a typed response from the customer. Best for short, single line answers.</p>
+<ul>
+<li>Supports Required</li>
+<li>Supports Review</li>
+</ul>
+<h3 id="multi-line-text-entry">Multi-Line Text Entry</h3>
+<p>Similar to a text entry, but where you anticipate the answer may be a bit longer than a single line of text.</p>
+<ul>
+<li>Supports Required</li>
+<li>Supports Review</li>
+</ul>
+<h3 id="select-entry">Select Entry</h3>
+<p>A block that allows the customer to select from a list of predefined values. To use this block you must add items to the the list. This will appear as a dropdown box or popup depending on the platform.</p>
+<ul>
+<li>Supports Required</li>
+<li>Supports Review</li>
+</ul>
+<h3 id="yesno-entry">Yes/No Entry</h3>
+<p>A block that allows the customer to answer a yes or no question.</p>
+<p>This block type has an additional setting of <strong>Required Value</strong> which enforces the customer select a particular value. If a value other than the required value is chosen, they are not allowed to proceed with filling out the form.</p>
+<p>A required value allows for <em>Must answer Yes</em>, <em>Must answer No</em>, or <em>Accept Any</em>, which means either value is acceptable. A common example of this type of entry is:</p>
+<pre><code>Text: Are you currently pregnant or breast-feeding?
+Required Value: Must answer no
+</code></pre>
+<p>If the customer answers <em>Yes</em> to this question, the form cannot proceed.</p>
+<ul>
+<li>Supports Required</li>
+<li>Supports Review</li>
+</ul>
+<blockquote>
+<p>The rendered input of this block changes depending on the <strong>Required</strong> setting. If Required, individual Yes &amp; No buttons are displayed, no default is selected and the customer must choose one of them. If this block is not required, an on/off switch is displayed, where the default value is no (off).</p>
+</blockquote>
+<h3 id="yesno-text-entry">Yes/No &amp; Text Entry</h3>
+<p>This block behaves exactly the same as a Yes/No entry, but adds an optional text field for the customer to type in additional detail.</p>
+<ul>
+<li>Supports Required</li>
+<li>Supports Review</li>
+</ul>
+<h3 id="datetime-entry">Date/Time Entry</h3>
+<p>A block that allows the customer to provide both a date and a time.</p>
+<ul>
+<li>Supports Required</li>
+<li>Supports Review</li>
+</ul>
+<h3 id="date-entry">Date Entry</h3>
+<p>A block that allows the customer to provide a date value.</p>
+<ul>
+<li>Supports Required</li>
+<li>Supports Review</li>
+</ul>
+<h3 id="time-entry">Time Entry</h3>
+<p>A block that allows the customer to provide a time value</p>
+<ul>
+<li>Supports Required</li>
+<li>Supports Review</li>
+</ul>
+<h3 id="photo-upload">Photo Upload</h3>
+<p>A block that allows the upload of a photo. On web this block shows an upload box allowing the customer to select a file from their computer. On iPad this block shows the camera.</p>
+<p>This photo is included on the generated document.</p>
+<ul>
+<li>Supports Required</li>
+<li>Supports Review</li>
+</ul>
+<h3 id="document-upload">Document Upload</h3>
+<p>A block that allows the upload of a document. On web this block shows an upload box allowing the customer to select a file from their computer. On iPad this block shows a document scanner which automatically crops, straigtens and desaturates the image and stores it as a PDF. </p>
+<p>The document is included as a link only in the generated document.</p>
+<ul>
+<li>Supports Required</li>
+<li>Supports Review</li>
+</ul>
+<p><a href="#template-mappings"></a></p>
+<h2 id="template-mappings">Template Mappings</h2>
+<p>After you&rsquo;ve created your template you must map it to a Service Category Type. Go to Settings &gt; Templates &gt; Mappings and remove any existing mapping from the desired category and add your new template.</p>
+<blockquote>
+<p>Future versions will allow multiple templates per service type.</p>
+</blockquote>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2024 REV23
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.dd8806f2.min.js"></script>
+      
+    
+  </body>
+</html>
