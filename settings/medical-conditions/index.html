@@ -85,6 +85,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#medical-conditions" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -1053,6 +1058,19 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Medical Conditions
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -1063,6 +1081,43 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#input-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Input Types
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#security" class="md-nav__link">
+    <span class="md-ellipsis">
+      Security
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1346,6 +1401,34 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#input-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Input Types
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#security" class="md-nav__link">
+    <span class="md-ellipsis">
+      Security
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1363,9 +1446,61 @@
   
 
 
-  <h1>Medical Conditions</h1>
-
-
+<h1 id="medical-conditions">Medical Conditions</h1>
+<p>The list of medical conditions are displayed while filling out a release form in <a href="../../concepts/kiosk/">Kiosk</a> and on the <a href="../../concepts/customers/">Customer</a> profile page. From the customer profile page a user can also quickly add a new condition (i.e. Prone to Fainting) if a newly discovered condition pops up mid-session.</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Name</strong></td>
+<td>The name of the medical condition</td>
+</tr>
+<tr>
+<td><strong>Condition Type</strong></td>
+<td>The type of medical condition, <strong>Allergy</strong>, <strong>Condition</strong>, or <strong>Disease</strong></td>
+</tr>
+<tr>
+<td><a href="#input-types"><strong>Input Type</strong></a></td>
+<td>The type of entry for the condition. See below.</td>
+</tr>
+<tr>
+<td><strong>Required</strong></td>
+<td>Whether the entry of this condition is required.</td>
+</tr>
+</tbody>
+</table>
+<p><a href="#input-types"></a></p>
+<h2 id="input-types">Input Types</h2>
+<p>Input types control how the medical condition will appear to be entered.</p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Behavior</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Yes/No</strong></td>
+<td>A yes or no box for the customer to select from. The rendered input of this condition changes depending on the <strong>Required</strong> setting. If Required, individual Yes &amp; No buttons are displayed, no default is selected and the customer must choose one of them. If this condition is not required, an on/off switch is displayed, where the default value is no (off).</td>
+</tr>
+<tr>
+<td><strong>Yes/No &amp; Text</strong></td>
+<td>The same as a Yes/No input type with an additional text field to collect additional data (i.e. &ldquo;Medications&rdquo;)</td>
+</tr>
+<tr>
+<td><strong>Text</strong></td>
+<td>A text field for the customer to type any additional data (i.e. &ldquo;Other&rdquo;)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="security">Security</h2>
+<p>There is a special <code>medical:customer</code> permission for <a href="../../concepts/users/">Users</a> which controls the ability to see a customer&rsquo;s medical conditions in their profile.</p>
 
 
 
