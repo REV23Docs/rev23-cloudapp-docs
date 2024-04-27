@@ -76,6 +76,16 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docs.rev23.com/rev23-cloudapp-docs/settings/needles/</loc>
+         <lastmod>2024-04-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.rev23.com/rev23-cloudapp-docs/settings/piercing/</loc>
+         <lastmod>2024-04-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docs.rev23.com/rev23-cloudapp-docs/settings/service-types/</loc>
          <lastmod>2024-04-27</lastmod>
          <changefreq>daily</changefreq>
@@ -91,82 +101,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docs.rev23.com/rev23-cloudapp-docs/settings/tattoo/</loc>
+         <lastmod>2024-04-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docs.rev23.com/rev23-cloudapp-docs/settings/users/</loc>
-         <lastmod>2024-04-27</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docs.rev23.com/rev23-cloudapp-docs/settings/needles/needle-manufacturers/</loc>
-         <lastmod>2024-04-27</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docs.rev23.com/rev23-cloudapp-docs/settings/needles/needles/</loc>
-         <lastmod>2024-04-27</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docs.rev23.com/rev23-cloudapp-docs/settings/piercing/gauges/</loc>
-         <lastmod>2024-04-27</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docs.rev23.com/rev23-cloudapp-docs/settings/piercing/gem-colors/</loc>
-         <lastmod>2024-04-27</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docs.rev23.com/rev23-cloudapp-docs/settings/piercing/gem-settings/</loc>
-         <lastmod>2024-04-27</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docs.rev23.com/rev23-cloudapp-docs/settings/piercing/jewelry-manufacturers/</loc>
-         <lastmod>2024-04-27</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docs.rev23.com/rev23-cloudapp-docs/settings/piercing/jewelry-materials/</loc>
-         <lastmod>2024-04-27</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docs.rev23.com/rev23-cloudapp-docs/settings/piercing/jewelry-types/</loc>
-         <lastmod>2024-04-27</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docs.rev23.com/rev23-cloudapp-docs/settings/piercing/lengths-diameters/</loc>
-         <lastmod>2024-04-27</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docs.rev23.com/rev23-cloudapp-docs/settings/tattooing/grips/</loc>
-         <lastmod>2024-04-27</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docs.rev23.com/rev23-cloudapp-docs/settings/tattooing/ink-colors/</loc>
-         <lastmod>2024-04-27</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docs.rev23.com/rev23-cloudapp-docs/settings/tattooing/ink-manufacturers/</loc>
-         <lastmod>2024-04-27</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docs.rev23.com/rev23-cloudapp-docs/settings/tattooing/inks/</loc>
-         <lastmod>2024-04-27</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docs.rev23.com/rev23-cloudapp-docs/settings/tattooing/salves/</loc>
-         <lastmod>2024-04-27</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docs.rev23.com/rev23-cloudapp-docs/settings/tattooing/tubes/</loc>
          <lastmod>2024-04-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
