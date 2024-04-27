@@ -16,6 +16,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docs.rev23.com/rev23-cloudapp-docs/preview-known-issues/</loc>
+         <lastmod>2024-04-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docs.rev23.com/rev23-cloudapp-docs/release-notes/</loc>
          <lastmod>2024-04-27</lastmod>
          <changefreq>daily</changefreq>
