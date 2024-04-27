@@ -645,27 +645,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../template-mappings.md" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Template Mappings
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../users/" class="md-nav__link">
         
   
@@ -1101,7 +1080,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../settings/piercing/lenghts-diameters.md" class="md-nav__link">
+      <a href="../../settings/piercing/lengths-diameters/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1191,6 +1170,91 @@
   
   <span class="md-ellipsis">
     Needle Manufacturers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Templates
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            Templates
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../settings/templates/designer/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Designer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../settings/templates/mappings/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Template Mappings
   </span>
   
 
@@ -1621,7 +1685,7 @@
 <p><strong>To exit Kiosk Mode</strong> on your iPad you must tap the corners of the screen in the correct sequence (a clock-wise trip around the screen from top left, top right, bottom right, bottom left). As you tap each corner you should see visual feedback indicating a successful tap.</p>
 <p>You will then be prompted with your passcode and can exit this mode, returning you to the main app.</p>
 <h2 id="flow">Flow</h2>
-<p>Kiosk uses <a href="../templates/">templates</a> to control the flow of the form, though some steps are not configurable or skipable.</p>
+<p>Kiosk uses <a href="../templates/">templates</a> to control the flow of the form, though some steps are not configurable or skippable.</p>
 <h3 id="service-selection">Service Selection</h3>
 <p>A customer is first prompted with the service they which to have done. First by selecting the Category Type (Tattoo, Piercing, etc&hellip;), then by Service Type.</p>
 <p>You can select multiple service types, as long as they are in the same type category. For example, you can combine multiple piercings, but you cannot combine a tattoo and a piercing and two forms will need to be filled out.</p>
@@ -1635,14 +1699,14 @@
 </ul>
 <h3 id="user-selection">User Selection</h3>
 <p>After a service type is select, the customer is presented with a list of users to select who is performing the service.</p>
-<p>Only service types which have a <a href="./template-mappings.md">mapping</a> and <a href="../user-service-types/">users</a> with an assigned seat will appear in this list.</p>
+<p>Only service types which have a <a href="../templates/#template-mappings">mapping</a> and <a href="../user-service-types/">users</a> with an assigned seat will appear in this list.</p>
 <p>This step is skipped if there is only one user detected as having a seat and assigned to the selected service type.</p>
 <p>Additionally an &ldquo;IDK&rdquo; (I don&rsquo;t know) user appears if there are two or more users in this list. This allows them to proceed with the form without knowing who will perform the service. This is useful for studios where staff decides who will be the performing provider.</p>
 <h3 id="customer-entry">Customer Entry</h3>
 <p>A customer is then prompted to enter their details. This can be done in one of a few ways.</p>
 <ol>
 <li>
-<p>A customer can scan the two-dimensional PDF417 barcode on the back side of their AAMVA issued identification. If succesful, key information such as the customer&rsquo;s name, birthdate &amp; address are extracted from the barcode and they move to the next step.</p>
+<p>A customer can scan the two-dimensional PDF417 barcode on the back side of their AAMVA issued identification. If successful, key information such as the customer&rsquo;s name, birthdate &amp; address are extracted from the barcode and they move to the next step.</p>
 </li>
 <li>
 <p>A customer can type their basic info name, birthdate and an email address OR phone number. With this information the app will first verify their age in accordance with the template age requirements, and attempt to locate their existing customer record. If found, the customer will be sent a text message or email containing a one time use code for them to enter. All of their data is pre-filled and they can make any corrections necessary.</p>
@@ -1658,7 +1722,7 @@
 <h3 id="contacts">Contacts</h3>
 <p>Controlled by the <a href="../templates/">template settings</a>, customers can be prompted for Emergency and Physician Contact information. Even if prompted as instructed by the template, they are skippable.</p>
 <h3 id="medical">Medical</h3>
-<p>Customers are prompted to fill out their medical profile with any allergies, diseases or medical conditions they may be afflicted with. This list is configured in <a href="./medical-conditions.md">Medical Conditions</a>.</p>
+<p>Customers are prompted to fill out their medical profile with any allergies, diseases or medical conditions they may be afflicted with. This list is configured in <a href="../../settings/medical-conditions/">Medical Conditions</a>.</p>
 <p>If the customer is returning, these are automatically filled out with past answers <em>except</em> medical conditions that are flagged as Required. These must be explicitly set each session.</p>
 <h3 id="disclaimers-template-sectionsblocks">Disclaimers (Template Sections/Blocks)</h3>
 <p>The customer is next presented with disclaimers, which are the sections and blocks as configured by the template. See <a href="../templates/">Templates</a> for more information.</p>
@@ -1666,7 +1730,7 @@
 <p>Sections which are set as Parent/Signature Sections are skipped if a guardian is not required.</p>
 </blockquote>
 <h3 id="source">Source</h3>
-<p>A customer will be prompted to answer where they heard about your studio. This is configured from the <a href="./sources.md">Sources</a> list.</p>
+<p>A customer will be prompted to answer where they heard about your studio. This is configured from the <a href="../../settings/sources/">Sources</a> list.</p>
 <h3 id="signatures">Signatures</h3>
 <p>The customer is prompted to sign the form. Depending on various scenarios this may show 1, 2 or 3 signature boxes.</p>
 <ul>
