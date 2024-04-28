@@ -628,6 +628,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#security" class="md-nav__link">
+    <span class="md-ellipsis">
+      Security
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1131,6 +1140,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#security" class="md-nav__link">
+    <span class="md-ellipsis">
+      Security
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1151,7 +1169,8 @@
 
 <h1 id="tattoo-settings">Tattoo Settings</h1>
 <p>Objects used for tattoo based services are discussed here. These objects are mostly just lookup objects, meaning objects you can select from a list for data consistency and so you don&rsquo;t need to type in a value each time. As such there is little to discuss here as they mostly just contain a name field.</p>
-<p>These objects are used for recording supplies uses in <strong>Tattoo</strong>, <strong>Microblading</strong>, <strong>Permanent Makeup</strong> and <strong>Removal</strong> <a href="../../concepts/services/">Service Sessions</a>.</p>
+<p>These objects are used for recording supplies used in <strong>Tattoo</strong>, <strong>Microblading</strong>, <strong>Permanent Makeup</strong> and <strong>Removal</strong> <a href="../../concepts/services/">Service Sessions</a>.</p>
+<p><a href="ink"></a></p>
 <h2 id="ink">Ink</h2>
 <p>Store your ink for adding to a service session, recording the expiration date and lot number.</p>
 <p>Ink is a bit more detailed object than others in this list as it contains multiple fields.</p>
@@ -1170,12 +1189,12 @@
 <td>Mediterranean Sea</td>
 </tr>
 <tr>
-<td><strong>Color</strong></td>
+<td><a href="#ink-colors"><strong>Color</strong></a></td>
 <td>The <em>base</em> color of the ink.</td>
 <td>Blue</td>
 </tr>
 <tr>
-<td><strong>Manufacturer</strong></td>
+<td><a href="#ink-manufacturers"><strong>Manufacturer</strong></a></td>
 <td>The manufacturer of the ink.</td>
 <td>World Famous</td>
 </tr>
@@ -1184,8 +1203,10 @@
 <blockquote>
 <p>You can import ink to add some of the most popular brands courtesy of <a href="https://painfulpleasures.com">PainfulPleasures</a>! Use the Import action and select your favorite brands to add them quickly. New ink color released? Import again, the list changes as they add new products to their catalog!</p>
 </blockquote>
+<p><a href="#ink-colors"></a></p>
 <h3 id="colors">Colors</h3>
 <p>Ink colors are base colors of ink. Green, Red, Blue, Purple, etc&hellip; these are not meant to be the specific names of ink. That is what the <strong>Name</strong> field of the Ink object is for. When searching for ink to add to a session you can easily filter by these colors. There is little reason to add to or edit this list as we have most bases covered here.</p>
+<p><a href="#ink-manufacturers"></a></p>
 <h3 id="manufacturers">Manufacturers</h3>
 <p>Manufacturers (brands) of inks. When searching for ink to add to a session you can easily filter by these manufacturers.</p>
 <h2 id="tubes">Tubes</h2>
@@ -1194,6 +1215,8 @@
 <p>Grips. Only a <strong>Name</strong> field is required. When adding to a session you are prompted for the lot number and expiration date.</p>
 <h2 id="salves">Salves</h2>
 <p>Salves. Only a <strong>Name</strong> field is required.</p>
+<h2 id="security">Security</h2>
+<p>The permissions for creating/editing these objects are controlled by the <code>Tattoo Config</code> permission set.</p>
 
 
 
