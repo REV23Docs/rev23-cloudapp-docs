@@ -1106,22 +1106,21 @@
 <h2 id="creating-customers">Creating Customers</h2>
 <p>In general customers are mainly meant to create themselves via <a href="../kiosk/">Kiosk</a>. In fact, currently iPad doesn&rsquo;t have a &ldquo;New Customer&rdquo; button.</p>
 <h2 id="importing-customers">Importing Customers</h2>
-<p>You an import a CSV (comma separated values) file of your customers from a number of existing relevant apps.</p>
+<p>You can import a CSV (comma separated values) file of your customers from a number of existing relevant apps.</p>
 <blockquote>
 <p>Only customer profile information is imported, not history.</p>
 </blockquote>
-<p>If we do not have support for the app you wish to use, you can format your CSV file to match our layout and use the <code>Custom</code> file type.</p>
-<p>Your CSV file must have a header and column names must match our expected values. Rename any column from your existing file to match our expected values, for example if the CSV you wish to import uses <code>First Name</code> as the column for a customer&rsquo;s first name, you must change that to be <code>GivenName</code> for REV23 to import the file. The order does not matter.</p>
+<p>If we do not have support for the app you wish to import from, you can format your CSV file to match our layout and use the <code>Other</code> file type.</p>
+<p>Your CSV file must have a header and column names must match our expected values. Rename any column from your existing file to match our expected values, for example if the CSV you wish to import uses <code>First Name</code> as the column for a customer&rsquo;s first name, you must change that to be <code>FirstName</code> (without a space) for REV23 to import the file. The order does not matter. The <strong>bold</strong> fields below are required to be in the file, though they don&rsquo;t necessarily need data in them.</p>
 <ul>
-<li>GivenName *<em>this is the first name</em></li>
+<li><strong>FirstName</strong></li>
+<li><strong>LastName</strong></li>
+<li><strong>Email</strong></li>
+<li><strong>PhoneNumber</strong></li>
+<li><strong>Birthdate</strong></li>
 <li>MiddleName</li>
-<li>FamilyName *<em>this is the last name</em></li>
 <li>Nickname</li>
 <li>Gender</li>
-<li>GenderPronoun</li>
-<li>Email</li>
-<li>PhoneNumber</li>
-<li>Birthdate</li>
 <li>Street</li>
 <li>City</li>
 <li>State</li>

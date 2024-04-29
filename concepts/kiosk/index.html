@@ -1415,32 +1415,34 @@
 <p>A customer will be prompted to answer where they heard about your studio. This is configured from the <a href="../../settings/sources/">Sources</a> list.</p>
 <h3 id="signatures">Signatures</h3>
 <p>The customer is prompted to sign the form. Depending on various scenarios this may show 1, 2 or 3 signature boxes.</p>
-<ul>
-<li>
-<p><strong>Customer Signature</strong> is displayed if:</p>
-<ul>
-<li>Customer age is greater than or equal to the <code>Required Age</code> defined in the template.</li>
-<li>A guardian was required AND the <code>Require Minor Signature</code> setting is set in the template. If you do not require minors to sign, turn this setting off.</li>
-</ul>
-</li>
-<li>
-<p><strong>Guardian Signature</strong> is displayed if:</p>
-<ul>
-<li>The customer is less than the <code>Required Age</code>.</li>
-</ul>
-</li>
-<li>
-<p><strong>User Signature</strong> is displayed if:</p>
-<ul>
-<li>The <code>Require User Signature</code> setting is set in the template.</li>
-</ul>
-</li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Signature</th>
+<th>Displayed if&hellip;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Customer Signature</strong></td>
+<td>Customer age is greater than or equal to the <code>Required Age</code> <strong>OR</strong> a guardian was required and the <code>Require Minor Signature</code> setting is set in the template. If you do not require minors to sign, turn this setting off. i.e. customer is legal age, or they are a minor and you require minor signatures.</td>
+</tr>
+<tr>
+<td><strong>Guardian Signature</strong></td>
+<td>The customer is less than the <code>Required Age</code>. (i.e. a guardian is required.)</td>
+</tr>
+<tr>
+<td><strong>User (Provider) Signature</strong></td>
+<td>The <code>Require User Signature</code> setting is set in the template.</td>
+</tr>
+</tbody>
+</table>
 <h3 id="picture">Picture</h3>
 <p>Say &ldquo;cheese!&rdquo; A customer is then prompted to <em>optionally</em> add a picture of their smiling face to their profile. This helps build a relationship with your customers by remembering them when the come in for repeat visits.</p>
-<blockquote>
+<div class="admonition note">
+<p class="admonition-title">Minor Pictures</p>
 <p>Customers under the age of eighteen (18) are not prompted for this step. Additionally, you cannot set a profile picture for a customer under this age from the customer profile. This is by design for safety and privacy reasons.</p>
-</blockquote>
+</div>
 <h3 id="finish">Finish</h3>
 <p>Once complete the <code>Finish Message</code> of the template is displayed (if set). After a short period of time Kiosk restarts and is ready for the next customer.</p>
 <p><a href="#guided-access-ipad"></a></p>
