@@ -1,5 +1,5 @@
-site_name: REV23 X Docs
-site_description: 'REV23 X Docs'
+site_name: REV23 (CloudApp) Docs
+site_description: 'REV23 (CloudApp) Docs'
 site_author: 'REV23'
 site_url: 'https://docs.rev23.com/rev23-cloudapp-docs/'
 
@@ -10,23 +10,39 @@ markdown_extensions:
   - fenced_code
   - smarty
   - sane_lists
+  - admonition
 
 # Copyright
-copyright: 'Copyright &copy; 2022 REV23'
+copyright: 'Copyright &copy; 2024 REV23'
 
 #Navigation
 nav:
     - Home: index.md
+    - PREVIEW KNOWN ISSUES: preview-known-issues.md
     - Introduction: introduction.md
-    - Concepts:
+    - Concepts:      
       - 'Customers': concepts/customers.md
-      - 'Services': concepts/services.md
+      - 'Services': concepts/services.md            
       - 'Kiosk': concepts/kiosk.md
       - 'Leads': concepts/leads.md
-      - 'Templates': concepts/templates.md
+      - 'Templates': concepts/templates.md      
       - 'Users': concepts/users.md
-      - 'Studios': concepts/studios.md
       - 'Webhooks': concepts/webhooks.md
+    - Settings:
+      - Tattoo: 'settings/tattoo.md'
+      - Piercing: 'settings/piercing.md'
+      - Needles: 'settings/needles.md'
+      - Templates:
+        - 'Designer': settings/templates/designer.md
+        - 'Template Mappings': settings/templates/mappings.md
+      - 'Medical Conditions': settings/medical-conditions.md
+      - 'Service Types': settings/service-types.md
+      - 'Sources': settings/sources.md
+      - 'Studios': settings/studios.md      
+      - 'Users': settings/users.md
+      - iPad:
+        - 'Passcode': ipad/passcode.md
+        - 'Cache': ipad/cache.md
     - About:
       - 'License': license.md
       - 'Release Notes': release-notes.md
@@ -38,7 +54,7 @@ theme:
   palette:
     primary: 'blue'
     accent: 'pink'
-  favicon: 'img/favicon.ico'
+  favicon: 'img/favicon.ico'  
 
 #Repository
 repo_name: 'rev23docs/rev23-cloudapp-docs'
