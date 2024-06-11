@@ -1133,6 +1133,24 @@
 <p>Likewise, you can export your customer list to CSV. Nothing much here. The big thing to note is a user must be assigned the <code>export:customer</code> permission to perform this operation.</p>
 <h2 id="medical-conditions">Medical Conditions</h2>
 <p>Customer medical conditions can be securely stored and viewed from the customer profile. Only users with the <code>medical:customer</code> permission are able to view these to limit confidential information for those who need to know only.</p>
+<h1 id="webhooks">Webhooks</h1>
+<p>Customers support the following <a href="../webhooks/">webhook</a> events:</p>
+<table>
+<thead>
+<tr>
+<th>Event</th>
+<th>Permission</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>customer_created</strong></td>
+<td>read:customer</td>
+<td>A customer object was created.</td>
+</tr>
+</tbody>
+</table>
 
 
 
