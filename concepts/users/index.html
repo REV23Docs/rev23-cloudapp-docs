@@ -575,9 +575,27 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#signature" class="md-nav__link">
+    <span class="md-ellipsis">
+      Signature
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#studios" class="md-nav__link">
     <span class="md-ellipsis">
       Studios
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#webhooks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Webhooks
     </span>
   </a>
   
@@ -1201,9 +1219,27 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#signature" class="md-nav__link">
+    <span class="md-ellipsis">
+      Signature
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#studios" class="md-nav__link">
     <span class="md-ellipsis">
       Studios
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#webhooks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Webhooks
     </span>
   </a>
   
@@ -1235,8 +1271,8 @@
 <h2 id="types-of-accounts">Types of accounts</h2>
 <p>REV23 supports two login types.</p>
 <ol>
-<li><a href="../rev23-id/">REV23 ID</a> (how you log onto REV23 software/services)</li>
-<li>Username/Password</li>
+<li><a href="../rev23-id/">REV23 ID</a> (how you log onto REV23 website/software/services)</li>
+<li>Username/Password stored in your tenant database</li>
 </ol>
 <p>Subscription owners can (and should) use their REV23 ID to access their app. Other accounts you create are accessed via a username/password that are stored only in your database.</p>
 <p>Using REV23 ID is fast and secure and offers a few benefits. For example, if you have multiple subscriptions you can quickly switch between them.</p>
@@ -1320,9 +1356,11 @@
 <p>As a general rule, assigning category licenses is easiest.</p>
 <h3 id="service-type-licenses">Service Type Licenses</h3>
 <p>For more control, you can assign licenses for specific service types. Again, most useful for piercing, if you have piercers that do not perform specific types of piercings that you offer you will want to avoid assigning them a category license and instead just add the piercings they do perform here.</p>
+<h2 id="signature">Signature</h2>
+<p>You may provide a default signature for providers to apply to release forms. This is useful if your form requires the provider signature but you do not require it be signed each time. Set the signature in the user page in the app. You may then disable the &ldquo;Require provider signature&rdquo; setting in the <a href="../../settings/templates/designer/">Template Designer</a>. If that setting is enabled it will always use the signed version  from Kiosk rather than this default.</p>
 <h2 id="studios">Studios</h2>
-<p>If you have multiple <a href="../../settings/studios/">studios</a>, you can assign users to only the locations they actually work at to limit whether or not they appear in the <a href="../kiosk/">Kiosk</a> flow. You do not need to explicitly set studios for users, users with no studio mapping will appear in all cases.</p>
-<h1 id="webhooks">Webhooks</h1>
+<p>If you have multiple <a href="../../settings/studios/">studios</a>, you can assign users to only the locations they actually work at to limit whether or not they appear in the <a href="../kiosk/">Kiosk</a> flow. You do not need to explicitly set studios for users, users with no studio mapping will always appear.</p>
+<h2 id="webhooks">Webhooks</h2>
 <p>Users support the following <a href="../webhooks/">webhook</a> events:</p>
 <table>
 <thead>
