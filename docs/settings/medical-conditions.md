@@ -9,6 +9,7 @@ The list of medical conditions are displayed while filling out a release form in
 |**Condition Type**|The type of medical condition, **Allergy**, **Condition**, or **Disease**|
 |<a href="#input-types">**Input Type**</a>| The type of entry for the condition. See below. |
 |**Required**|Whether the entry of this condition is required.|
+|**Display Order** (_hidden_)|You can control the position of the medical condition by dragging/dropping it to the desired position on both web and iPad platforms.|
 
 <a href="#input-types"></a>
 ## Input Types

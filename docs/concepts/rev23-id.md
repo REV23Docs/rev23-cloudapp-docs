@@ -1,6 +1,6 @@
 # REV23 ID
 
-A REV23 ID (just like a Microsoft Account, Google Account, Apple ID, etc...) is your single sign-on to REV23 apps and services (i.e. the rev23.com website).
+A REV23 ID (just like a Microsoft Account, Google Account, Apple Account, etc...) is your single sign-on to REV23 apps and services (i.e. the rev23.com website).
 
 A REV23 ID is required to create a REV23 CloudApp subscription, and is able to be used as a login method into your tenant.
 

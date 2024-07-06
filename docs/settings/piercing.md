@@ -1,6 +1,6 @@
 # Piercing Settings
 
-Objects used for tattoo based services are discussed here. These objects are mostly just lookup objects, meaning objects you can select from a list for data consistency and so you don't need to type in a value each time. As such there is little to discuss here as they mostly just contain a name field.
+Objects used for piercing based services are discussed here. These objects are mostly just lookup objects, meaning simple objects you can select from a list for data consistency and so you don't need to type in a value each time. As such there is little to discuss here as they mostly just contain a name field.
 
 These objects are used for recording supplies used in **Piercing** [Service Sessions](../concepts/services.md), namely, *Jewelry*.
 

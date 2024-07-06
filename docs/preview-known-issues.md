@@ -10,10 +10,15 @@ This list contains `BUG` and `TBD (to be done)` items we intend to fix _before_ 
 
 
 ### iPad
+1. `BUG`: **AFTER UPDATING TO build 213.0** from a previous version you will likely experience a crash. Uninstall the app then reinstall from home screen if this occurs.
+1. `BUG`: On screen keyboard not showing on medical conditions that are Yes/No + Text
+1. `BUG`: Investigating occasional crash when skipping emergency contact in kiosk
 1. `TBD`: Complete Service button isn't currently doing anything. Evaluating its purpose based on feedback.
-1. `BUG`: Investigating issues where Kiosk will fail after access token has expired
-1. `BUG`: Deleting a service from the service list are not deleting the correct ID, sometimes causing an error.
+1. `TBD`: Assign users to studios (can be done in web for now)
+1. `TBD`: Needle config from settings menu. You can add needles from a session, but edit/delete must occur on web for now
+1. `TBD`: Merge customers
 
 
 ### Web
-No current known issues
+1. `BUG`: Occasionally creating a new user fails with a message indicating required fields are missing. Investigating.
+1. `TODO`: Many polish items regarding layout, colors, sizing, etc...

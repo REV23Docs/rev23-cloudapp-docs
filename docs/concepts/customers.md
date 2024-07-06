@@ -38,3 +38,11 @@ Likewise, you can export your customer list to CSV. Nothing much here. The big t
 ## Medical Conditions
 
 Customer medical conditions can be securely stored and viewed from the customer profile. Only users with the `medical:customer` permission are able to view these to limit confidential information for those who need to know only.
+
+# Webhooks
+
+Customers support the following [webhook](./webhooks.md) events:
+
+|Event|Permission|Description|
+|-|-|-|
+|**customer_created**|read:customer| A customer object was created. |

@@ -22,6 +22,8 @@ A customer is first prompted with the service they wish to have done. First by s
 
 You can select multiple service types, as long as they are in the same type category. For example, you can combine multiple piercings, but you cannot combine a tattoo and a piercing and two forms will need to be filled out.
 
+Only service types which have a [mapping](../settings/templates/mappings.md) and [users](users.md#service-types) with an assigned seat will appear in this list.
+
 One or both of these steps are skipped if:
 
 - There is only one (1) detected category, i.e. if you are a tattoo only studio, the category selection will be skipped 
@@ -30,9 +32,9 @@ One or both of these steps are skipped if:
 
 ### User Selection
 
-After a service type is select, the customer is presented with a list of users to select who is performing the service.
+After a service type is selected, the customer is presented with a list of users to select who is performing the service.
 
-Only service types which have a [mapping](../settings/templates/mappings.md) and [users](users.md#service-types) with an assigned seat will appear in this list.
+Only users which have a seat assigned and have no studios assigned or have a studio assignment in the selected studio will appear in this list.
 
 This step is skipped if there is only one user detected as having a seat and assigned to the selected service type.
 

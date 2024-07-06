@@ -10,7 +10,7 @@ Depending on your needs your template may have one section and one paragraph blo
 
 While powerful, templates are easy to set up. Check the [Template Designer](../settings/templates/designer.md) topic for detailed information.
 
-> The _Template Designer_ is currently available on the web app only. The templates you design there are of course available to the iPad app.
+> The _Template Designer_ is currently available in the web app only. The templates you design there are of course available to the iPad app.
 
 ### Mappings
 

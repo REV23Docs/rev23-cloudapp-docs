@@ -42,7 +42,7 @@ Sections
     └─ Time: When did you last eat?
 └─ Additional Release
     └─ Initials: Photo consent
-    └─ Initials" Verified spelling of tattoo if applicable
+    └─ Initials: I verified spelling of tattoo if applicable
 └─ Parent/Guardian Section
     └─ Document: Scan a copy of the birth certificate
    
@@ -85,7 +85,7 @@ Release Form templates have additional settings.
 
 - **Require Minor Signature**: If checked, the form will require a signature from the minor, in addition to the parent/guardian signature.
 
-- **Show Medical Conditions**: If checked, the medical conditions table will be shown on the generated document. This does not control whether they are display to the customer in Kiosk.
+- **Show Medical Conditions**: If checked, the medical conditions table will be shown on the generated document. This does not control whether they are displayed to the customer in Kiosk.
 
 <a name="age-requirements"></a>
 #### Age Requirements
@@ -189,7 +189,7 @@ After you've created your template you must map it to a Service Category Type. G
 
 ## Markdown
 
-While not required, REV23 allows you to format your templates with Markdown to add **bold** and *emphasized* text, formatted lists, and more. **You can learn how to use Markdown in just a couple of minutes** to add additional structure and clarity to your templates. Markdown is used across many popular websites including Reddit, and even this very user guide, so you can take this knowledge with you to other corners of the web.
+REV23 allows you to format your templates with Markdown to add **bold** and *emphasized* text, formatted lists, and more. **You can learn how to use Markdown in just a couple of minutes** to add additional structure and clarity to your templates. Markdown is used across many popular websites including Reddit, and even this very user guide, so you can take this knowledge with you to other corners of the web.
 
 Examples of Markdown:
 

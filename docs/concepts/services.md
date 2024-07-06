@@ -1,10 +1,15 @@
 # Services
 
-A **Service** represents a collection of related procedures performed on a customer by a service provider.
+A **Service** represents a a project, which contains a collection of _related_ procedures performed on a customer by a service provider. _Related_ is the key word.
 
-A **Session** represents what procedure was done, and the details of that procedure. A service can contain one or more sessions. 
+- one tattoo that was started and finished in one day.
+- a tattoo that requires multiple days to complete.
+- one or more piercings in the same sitting.
+- a microblading session and the follow-up weeks later.
 
-In the simplest terms, a Service is a container for one or more _related_ Sessions.
+As such, a service is locked to one provider and one customer. Meaning, every session in the service must be done by the same person.
+
+A **Session** represents what procedure was done, and the details of that procedure. A service can contain one or more sessions.
 
 > If you're coming from REV23 Desktop, the idea of services is slightly different. In Desktop, a Service was represented as a service as a single session. There was no separation between the two objects.
 
