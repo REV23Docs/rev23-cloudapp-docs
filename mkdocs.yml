@@ -18,16 +18,19 @@ copyright: 'Copyright &copy; 2024 REV23'
 #Navigation
 nav:
     - Home: index.md
+    - Overview: overview.md
     - PREVIEW KNOWN ISSUES: preview-known-issues.md
     - Introduction: introduction.md
-    - Concepts:      
+    - Concepts:    
+      - 'REV23 ID': concepts/rev23-id.md 
+      - 'Platforms': concepts/platforms.md 
       - 'Customers': concepts/customers.md
       - 'Services': concepts/services.md            
       - 'Kiosk': concepts/kiosk.md
       - 'Leads': concepts/leads.md
       - 'Templates': concepts/templates.md      
       - 'Users': concepts/users.md
-      - 'Webhooks': concepts/webhooks.md
+      - 'Webhooks': concepts/webhooks.
     - Settings:
       - Tattoo: 'settings/tattoo.md'
       - Piercing: 'settings/piercing.md'

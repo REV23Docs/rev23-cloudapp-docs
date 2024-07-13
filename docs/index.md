@@ -2,6 +2,8 @@
 
 These docs will walk you through using REV23 (CloudApp), a mobile/web app for tattoo and piercing studios.
 
+Check the [Overview](overview.md) to get started with the basics of using the app!
+
 - At the bottom of each topic you can leave a **Comment** to let us know if it helped your understanding, or if it could use some extra explanation, or give future users tips for how you utilize some features.
 
 - You can contribute to these docs on [GitHub](https://www.github.com/REV23Docs/rev23-cloudapp-docs/)
