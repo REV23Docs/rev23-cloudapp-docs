@@ -1169,6 +1169,34 @@
 <p>We&rsquo;ve established that release forms are filled out in <a href="../kiosk/">Kiosk</a> sessions. But where do they go? How do you see them?</p>
 <p>When a session is <strong>Ended</strong>, any forms that were filled out are then generated. It is not until this happens that the release form is finalized. This gives you the opportunity to get all supplies added (which are required to be on the release form by more and more health departments).</p>
 <p>Release Forms are sent to a processing queue in the REV23 cloud and generated as a PDF and stored securely. You can view the progress of their generation and the final document in the <strong>Forms</strong> section of the session.</p>
+<h1 id="webhooks">Webhooks</h1>
+<p>Services support the following <a href="../webhooks/">webhook</a> events:</p>
+<table>
+<thead>
+<tr>
+<th>Event</th>
+<th>Permission</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>service.created</strong></td>
+<td>read:service</td>
+<td>A service object was created.</td>
+</tr>
+<tr>
+<td><strong>servicesession.created</strong></td>
+<td>read:service</td>
+<td>A session object was created.</td>
+</tr>
+<tr>
+<td><strong>releaseform.generated</strong></td>
+<td>read:service</td>
+<td>A release form PDF was generated.</td>
+</tr>
+</tbody>
+</table>
 
 
 
