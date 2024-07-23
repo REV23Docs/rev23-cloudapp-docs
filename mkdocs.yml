@@ -20,7 +20,6 @@ nav:
     - Home: index.md
     - Overview: overview.md
     - PREVIEW KNOWN ISSUES: preview-known-issues.md
-    - Introduction: introduction.md
     - Concepts:    
       - 'REV23 ID': concepts/rev23-id.md 
       - 'Platforms': concepts/platforms.md 

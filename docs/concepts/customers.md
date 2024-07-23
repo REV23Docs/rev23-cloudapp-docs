@@ -45,4 +45,4 @@ Customers support the following [webhook](./webhooks.md) events:
 
 |Event|Permission|Description|
 |-|-|-|
-|**customer_created**|read:customer| A customer object was created. |
+|**customer.created**|read:customer| A customer object was created. |

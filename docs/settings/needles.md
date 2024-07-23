@@ -14,7 +14,7 @@ A needle is a bit more detailed object than others as it contains multiple field
 |**Manufacturer**|The manufacturer of the needle.|Peak|Precision |
 |**Service Categories**|The service categories of the needle.|Tattoo|Piercing|
 
-> **Service Categories Note:** The Categories field can accept multiple Category Types, for example needles that are using in Tattooing and Permanent Makeup.
+> **Service Categories Note:** The Categories field can accept multiple Category Types, for example needles that are used in Tattooing and Permanent Makeup.
 
 ### Manufacturers
 Manufacturers (brands) of needles. When searching for ink to add to a session you can easily filter by these manufacturers.

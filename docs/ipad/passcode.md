@@ -10,4 +10,13 @@ If you want to protect the app completely each time it goes into stand by or you
 
 ## Forgot Passcode
 
-Your passcode is stored on locally on your device. If you have multiple iPads in your studio, they each can have their own passcode. If you forget your passcode you can uninstall the app and reinstall from the App Store. Your data is of course stored in the cloud so you will not lose any data during this process, you will just need to log on again.
+Your passcode is stored on locally on your device. If you have multiple iPads in your studio, they each can have their own Kiosk passcode. If you forget your passcode you can uninstall the app and reinstall from the App Store. Your data is of course stored in the cloud so you will not lose any data during this process, you will just need to log on again.
+
+## Auto-Lock
+
+There are two settings which can override your devices behavior
+
+- Prevent Auto-Lock
+- Prevent Auto-Lock in Kiosk
+
+If toggled, your device will no automatically lock while the app is active in the foreground. This is useful if you leave the app open while performing a service, or if you leave the app in Kiosk mode and need the display always available without re-entering your iPad passcode.

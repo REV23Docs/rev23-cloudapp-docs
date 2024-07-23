@@ -12,17 +12,14 @@ This list contains the following work items:
 
 ### General
 
-1.	There are instances where things have been implemented on web but are not on iOS and vice versa. Some things, such as the Template Designer are exclusive to web right now and will be for release, meaning you need to use the web app to customize your release forms. Other minor things we are in the stages of polishing up so things will align over the coming weeks.
+-	There are instances where things have been implemented on web but are not on iOS and vice versa. Some things, such as the Template Designer are exclusive to web right now and will be for release, meaning you need to use the web app to customize your release forms. Other minor things we are in the stages of polishing up so things will align over the coming weeks.
 
 ### iPad
-
-1. `BUG`: **AFTER UPDATING TO build 213.0** from a previous version you will likely experience a crash. Uninstall the app then reinstall from home screen if this occurs.
-1. `TBD`: Complete Service button isn't currently doing anything. Evaluating its purpose based on feedback.
-1. `WIP`: Needle config from settings menu. You can add needles from within a session, but edit/delete must occur on web for now
-1. `TEST`: Merge customers
-1. `TEST`: Implement newer avatars (colored initials circle) for consistency with all platforms
+- `WIP`: Adding ability to create a new session within a service instead of from kiosk
+- `TBD`: Complete Service button isn't currently doing anything. Evaluating its purpose based on feedback.
 
 ### Web
 
-1. `BUG`: Occasionally creating a new user fails with a message indicating required fields are missing. Investigating.
-1. `WIP`: Many polish items regarding layout, colors, sizing, etc...
+- `BUG`: Occasionally creating a new user fails with a message indicating required fields are missing. Investigating.
+- `WIP`: Many polish items regarding layout, colors, sizing, etc...
+- `WIP`: The service/session screens are currently undergoing a redesign

@@ -38,3 +38,13 @@ We've established that release forms are filled out in [Kiosk](kiosk.md) session
 When a session is **Ended**, any forms that were filled out are then generated. It is not until this happens that the release form is finalized. This gives you the opportunity to get all supplies added (which are required to be on the release form by more and more health departments).
 
 Release Forms are sent to a processing queue in the REV23 cloud and generated as a PDF and stored securely. You can view the progress of their generation and the final document in the **Forms** section of the session.
+
+# Webhooks
+
+Services support the following [webhook](./webhooks.md) events:
+
+|Event|Permission|Description|
+|-|-|-|
+|**service.created**|read:service| A service object was created. |
+|**servicesession.created**|read:service| A session object was created. |
+|**releaseform.generated**|read:service| A release form PDF was generated. |
