@@ -28,7 +28,7 @@ nav:
       - 'Leads': concepts/leads.md
       - 'Templates': concepts/templates.md      
       - 'Users': concepts/users.md
-      - 'Webhooks': concepts/webhooks.
+      - 'Webhooks': concepts/webhooks.md
     - Settings:
       - Tattoo: 'settings/tattoo.md'
       - Piercing: 'settings/piercing.md'
