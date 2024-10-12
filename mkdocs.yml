@@ -19,7 +19,6 @@ copyright: 'Copyright &copy; 2024 REV23'
 nav:
     - Home: index.md
     - Overview: overview.md
-    - PREVIEW KNOWN ISSUES: preview-known-issues.md
     - Concepts:    
       - 'REV23 ID': concepts/rev23-id.md 
       - 'Platforms': concepts/platforms.md 
