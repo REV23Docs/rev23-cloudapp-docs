@@ -13,7 +13,7 @@ markdown_extensions:
   - admonition
 
 # Copyright
-copyright: 'Copyright &copy; 2024 REV23'
+copyright: 'Copyright &copy; 2025 REV23'
 
 #Navigation
 nav:
@@ -36,6 +36,7 @@ nav:
       - Templates:
         - 'Designer': settings/templates/designer.md
         - 'Template Mappings': settings/templates/mappings.md
+      - 'Flags': settings/flags.md
       - 'Medical Conditions': settings/medical-conditions.md
       - 'Service Types': settings/service-types.md
       - 'Sources': settings/sources.md
