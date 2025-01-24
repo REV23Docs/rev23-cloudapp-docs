@@ -44,9 +44,7 @@ Because of this, we **strongly discourage** you from attempting scenarios that c
 ## Zapier
 For our launch version, we only support Webhooks via Zapier. An online automation tool that connects two or more apps/services. Zapier makes it easy to design your workflows (Zaps) and automate many tasks! Find the REV23 app when designing your Zap to get started!
 
-[Check out Zapier](https://zapier.com)
-
-> Currently the REV23 Zapier App is in testing and you must be invited to located it.
+[Zapier - REV23 Integrations](https://zapier.com/apps/rev23/integrations)
 
 
 ## Other and custom webhooks

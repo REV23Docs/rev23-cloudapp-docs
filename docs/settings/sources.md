@@ -7,4 +7,4 @@ All a source object needs is a **Name**. You can configure this list as needed a
 As this version of the app begins to mature, reporting on where your customers come from is a valuable metric! So recording this information early is always good!
 
 ## Security
-The permissions for creating/editing these objects are controlled by the `Source` permission set.
+The permissions for creating/editing these objects are controlled by the `Customer Config` permission set.

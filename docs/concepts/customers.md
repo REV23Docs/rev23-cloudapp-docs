@@ -37,7 +37,11 @@ Likewise, you can export your customer list to CSV. Nothing much here. The big t
 
 ## Medical Conditions
 
-Customer medical conditions can be securely stored and viewed from the customer profile. Only users with the `medical:customer` permission are able to view these to limit confidential information for those who need to know only.
+Customer medical conditions can be securely stored and viewed from the customer profile. Only users with the `medical:customer` permission are able to view these to limit confidential information for those who need to know only. See [Medical Conditions](../settings/medical-conditions.md) for more information.
+
+## Flags
+
+Customers can be flagged for past behavior to alert you to a potential issue. You can apply multiple flags to a customer and will see a visual indicator in the customer record when a flag is present. See [Flags](../settings/flags.md) for more information.
 
 # Webhooks
 
