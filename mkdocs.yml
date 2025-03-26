@@ -19,6 +19,7 @@ copyright: 'Copyright &copy; 2025 REV23'
 nav:
     - Home: index.md
     - Overview: overview.md
+    - Terminology: terminology.md
     - Concepts:    
       - 'REV23 ID': concepts/rev23-id.md 
       - 'Platforms': concepts/platforms.md 
@@ -48,6 +49,9 @@ nav:
       - iPad:
         - 'Passcode': ipad/passcode.md
         - 'Cache': ipad/cache.md
+    - API:
+      - 'Overview': api/overview.md
+      - 'Status Codes': api/status-codes.md
     - About:
       - 'License': license.md
       - 'Release Notes': release-notes.md

@@ -16,7 +16,7 @@ Create additional [User](concepts/users.md) accounts for additional artists or h
 If they are a service provider, assign them a seat and add licenses to ensure the app knows which service types they perform.
 
 ### Templates
-Its likely you will need to modify or completely replace the default release form [template](concepts/templates.md).
+It's likely you will need to modify or completely replace the default release form [template](concepts/templates.md).
 
 If you create a new template, ensure you map it to the proper service categories so that the app uses your copy.
 

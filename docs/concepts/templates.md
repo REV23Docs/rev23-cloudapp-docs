@@ -1,6 +1,6 @@
 # Templates
 
-Templates represent the document flow of your release form. A template design contains one or more section, and a section contains one or more blocks. Additionally Templates have additional options that control the flow of the form.
+Templates represent the document flow of your release form. A template design contains one or more sections, and a section contains one or more blocks. Additionally, Templates have additional options that control the flow of the form.
 
 A **section** is a group of blocks.
 

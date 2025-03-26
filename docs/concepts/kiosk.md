@@ -98,7 +98,7 @@ Say "cheese!" A customer is then prompted to _optionally_ add a picture of their
 
 ### Finish
 
-Once complete the ```Finish Message``` of the template is displayed (if set). After a short period of time Kiosk restarts and is ready for the next customer.
+Once complete, the ```Finish Message``` of the template is displayed (if set). After a short period of time Kiosk restarts and is ready for the next customer.
 
 <a href="#guided-access-ipad"></a>
 ## Guided Access (iPad)
