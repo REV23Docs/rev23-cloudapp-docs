@@ -1,6 +1,6 @@
-# Welcome to the REV23 (CloudApp) Docs
+# Welcome to the REV23 Cloud Docs
 
-These docs will walk you through using REV23 (CloudApp), a mobile/web app for tattoo and piercing studios.
+These docs will walk you through using REV23 Cloud, a mobile/web app for tattoo and piercing studios.
 
 Check the [Overview](overview.md) to get started with the basics of using the app!
 

@@ -43,8 +43,12 @@ nav:
       - 'Studios': settings/studios.md      
       - 'Users': settings/users.md
       - iPad:
+        - 'Portfolio': ipad/portfolio.md
         - 'Passcode': ipad/passcode.md
         - 'Cache': ipad/cache.md
+      - Versions:
+        - 'iOS': versions/ios.md
+        - 'Web': versions/web.md
     - About:
       - 'License': license.md
       - 'Release Notes': release-notes.md
