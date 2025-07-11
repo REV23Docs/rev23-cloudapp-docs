@@ -30,7 +30,7 @@ Sessions are really the single most important piece of the REV23 puzzle.
 
 A session represents details about the work such as placement, description, price, as well as the forms that were filled out. Release forms are per **session**, meaning each piercing you do in a service for example has its own session, which has its own release form; each addition you add to a tattoo back piece has it's own release form, etc...
 
-Sessions can include as much, or as little information as you would like to add, as long as it conforms with your local health department.
+Sessions can include as much, or as little information as you would like to add, as long as it conforms with your local health department's requirements.
 
 You can track supplies such as needles, ink, disposable grips, tubes and detailed jewelry information. All of this info can be added to the release form as required.
 
@@ -40,16 +40,15 @@ We've established that release forms are filled out in [Kiosk](kiosk.md) session
 
 When a session is **Ended**, any forms that were filled out are then generated. It is not until this happens that the release form is finalized. This gives you the opportunity to get all supplies added (which are required to be on the release form by more and more health departments).
 
-Release Forms are sent to a processing queue in the REV23 cloud and generated as a PDF and stored securely. You can view the progress of their generation and the final document in the **Forms** section of the session.
+Release Forms are sent to a processing queue in the REV23 cloud and generated as a PDF and stored securely. You can view the progress of their generation and the final document in the **Forms** section of the session. Typically this will only take a few seconds, but depending on the number of all active REV23 users using our app, the queue may take slightly longer.
 
 ### Adding Sessions
 
-You can add a new session to a service using the Add Session action. On iPad you will be prompted with two options. Signed or Unsigned.
+You can add a new session to a service using the Add Session action. On iPad you will be prompted with two options: Signed or Unsigned.
 
 An **Unsigned** session will create the session but not have the customer fill out a form. If you do not require paperwork for touch-ups, jewelry downsizing, change outs, etc.. you can add this as a session to the existing service.
 
-A **Signed** session will being a Kiosk flow for the customer to answer quetions and sign, thereby creating a form that will be generated with the session is ended. In this Kiosk flow, some steps are skipped since the app already knows who the client is, though they are allowed to update info if needed. If you require paperwork for touch-ups, or want to add another piercing after the service has already been created, you should choose this option.
-
+A **Signed** session will being a Kiosk flow for the customer to answer quetions and sign, thereby creating a form that will be generated with the session is ended. In this Kiosk flow, some steps are skipped since the app already knows who the customer is, though they are allowed to update info if needed. If you require paperwork for touch-ups, or want to add another piercing after the service has already been created, you should choose this option.
 
 # Webhooks
 

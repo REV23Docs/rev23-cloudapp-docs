@@ -19,6 +19,7 @@ copyright: 'Copyright &copy; 2025 REV23'
 nav:
     - Home: index.md
     - Overview: overview.md
+    - Terminology: terminology.md
     - Concepts:    
       - 'REV23 ID': concepts/rev23-id.md 
       - 'Platforms': concepts/platforms.md 
@@ -30,22 +31,28 @@ nav:
       - 'Users': concepts/users.md
       - 'Webhooks': concepts/webhooks.md
     - Settings:
+      - Security:
+        - 'Studios': settings/studios.md      
+        - 'Users': settings/users.md
+      - Customers:
+        - 'Flags': settings/flags.md
+        - 'Medical Conditions': settings/medical-conditions.md
+        - 'Sources': settings/sources.md
+      - Services:
+        - 'Service Types': settings/service-types.md
+        - Templates:
+          - 'Designer': settings/templates/designer.md
+          - 'Template Mappings': settings/templates/mappings.md
       - Tattoo: 'settings/tattoo.md'
       - Piercing: 'settings/piercing.md'
       - Needles: 'settings/needles.md'
-      - Templates:
-        - 'Designer': settings/templates/designer.md
-        - 'Template Mappings': settings/templates/mappings.md
-      - 'Flags': settings/flags.md
-      - 'Medical Conditions': settings/medical-conditions.md
-      - 'Service Types': settings/service-types.md
-      - 'Sources': settings/sources.md
-      - 'Studios': settings/studios.md      
-      - 'Users': settings/users.md
       - iPad:
         - 'Portfolio': ipad/portfolio.md
         - 'Passcode': ipad/passcode.md
         - 'Cache': ipad/cache.md
+      - API:
+        - 'Overview': api/overview.md
+        - 'Status Codes': api/status-codes.md
       - Versions:
         - 'iOS': versions/ios.md
         - 'Web': versions/web.md

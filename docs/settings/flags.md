@@ -14,7 +14,7 @@ Behavoir
 └─ Disrespectful
 ```
 
-Categories are not required, but are recommended to help with organization if you have a large number.
+Categories are not required, but are recommended to help with organization if you have a large number of flags.
 
 ## Security
 The permissions for creating/editing these objects are controlled by the `Customer Config` permission set.
