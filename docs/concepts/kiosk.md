@@ -8,7 +8,7 @@ For additional protection you can enable Guided Access from your iPad Settings t
 
 From iPad you can enter Kiosk Mode from the Menu button. If a user has access to log onto the app, they are able to put the app in Kiosk mode. The user does not need permissions for anything additional to run Kiosk, for example, they do not need Create Customer permissions, as Kiosk Mode runs in as it's own special user that has only the permissions required to fill out a release form.
 
-**To exit Kiosk Mode** on your iPad you must tap the corners of the screen in the correct sequence (a clock-wise trip around the screen from top left, top right, bottom right, bottom left). As you tap each corner you should see visual feedback indicating a successful tap.
+**To exit Kiosk Mode** on your iPad tap the Exit button in the upper-right hand corner.
 
 You will then be prompted for your passcode and can exit this mode, returning you to the main app.
 

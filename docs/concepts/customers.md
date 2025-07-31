@@ -43,6 +43,16 @@ Customer medical conditions can be securely stored and viewed from the customer 
 
 Customers can be flagged for past behavior to alert you to a potential issue. You can apply multiple flags to a customer and will see a visual indicator in the customer record when a flag is present. See [Flags](../settings/flags.md) for more information.
 
+## Merging Duplicate Customers
+
+There are two methods for merging a duplicate customers.
+
+1. In the Customer List select **Find Duplicates** (currently iOS only). This will search for customers that have the same birthdate and last name, showing you the first that was created. Tapping that customer will show you the found duplicates, allowing you to select each that you wish to merge.
+
+2. In a Customer Detail screen select **Merge Duplciates** to show customers that have the same birthdate and last name. This will merge the select customers into the the target that was opened.
+
+This will merge services, notes, files and more, as well as attempt to fill gaps in the data, using the most recent entered information first.
+
 # Webhooks
 
 Customers support the following [webhook](./webhooks.md) events:
