@@ -20,7 +20,8 @@ Kiosk has received some visual polish making required fields easier to identify,
 - Required fields are now easier to identify by making them bold and blue with stylized lables.
 - Markdown support has been enhanced in Templates by stylizing your headers, bullet points and more.
 
-**Also...**
+**Additional Changes**
+
 - The ability to select and copy/paste, auto-fill text in the main app has been restored. This functionality remains disabled in Kiosk for securit and privacy reasons.
 - Fixed a bug that could cause a crash when opening a user from Security > Users.
 - Signing out of REV23 ID will no longer clear your Portfolio options.
@@ -38,7 +39,8 @@ Go to **Settings > Portfolio** to add photos or albums from your Photos app (alb
 
 See [Portfolio](../ipad/portfolio.md) for more information.
 
-**Also...**
+**Additional Changes**
+
 - Navigation Bar is now always visible when scrolling. Previously in screens like Customer or Service detail if you scrolled to the bottom you would need to scroll to the top to see the < Back button again. This is now always visible.
 - Added filter to user list
 - Screen mirroring the app to another display caused issues. The app needs to be restarted after starting a screen mirroring session now.
@@ -59,7 +61,8 @@ Added color customization to users, studio, service categories and service types
 - Service Categories: Displays an indicator on lists of services with types of that category. If not set no indicator will be visible unless specifically set on the service type level.
 - Service Types: Displays an indicator on lists of services of that type. If not set, it will use the color set on the category level.
 
-**Also...**
+**Additional Changes**
+
 - Added short name to Studio. Reserved for future use.
 - Fixed a crash that could happen during maintenance alerts if the scheduled time was formatted a certain way.
 - Forced upgrade alerts that direct you to app store when we specify a minimum version. Too many people staying on older versions that prevented maintenance work.
@@ -90,7 +93,8 @@ You can now filter services in the service list by status, provider, type, categ
 ### Force Delete
 Added the ability to force delete to certain objects when initial deletion fails due to business rules. For example, if you attempt to delete a service/session with signed forms you would encounter an error and have to delete the forms first. Now, if a user has a permission that would enable them to delete the object(s) preventing an object deletion (in this case `form:delete`) the first delete attempt will still fail, and prompt if you'd like to delete the related objects.
 
-**Also...**
+**Additional Changes**
+
 - Fixed a crash that could happen when taking a picture of customer ID image.
 - Reduced the amount of time popup alerts are visible
 - Enhanced chat to auto-fill some details from the user.
@@ -117,7 +121,8 @@ Added the ability to force delete to certain objects when initial deletion fails
 
 Added [Flags](../settings/flags.md) to customers to allow you to easily flag customers to be alerted to future problematic encouters.
 
-**Also...**
+**Additional Changes**
+
 - Replaced REV23 logo with app icon when starting Kiosk.
 - Various improvements and bug fixes.
 
