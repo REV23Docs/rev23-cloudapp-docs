@@ -1,6 +1,6 @@
 # Status Codes
 
-In general we show meaningful error messages when something goes wrong in the iPad or Web app. However, there may be cases when you're working directly with the API (i.e. in [webhooks](./concepts/webhooks.md) where you receive a status code that you need clarity on.
+In general we show meaningful error messages when something goes wrong in the iPad or Web app. However, there may be cases when you're working directly with the API (i.e. in [webhooks](../concepts/webhooks.md) where you receive a status code that you need clarity on.
 
 > Use of the word "client" in this topic is a reference to the requesting user/application, not a client in the customer sense.
 

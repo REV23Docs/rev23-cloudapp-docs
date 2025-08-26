@@ -9,15 +9,16 @@ REV23 supports user accounts each with a password and unique permissions. Each s
 REV23 supports two login types.
 
 1. [REV23 ID](rev23-id.md) (how you log onto REV23 website/software/services)
+
 2. Username/Password stored in your tenant database
 
-Subscription owners can (and should) use their REV23 ID to access their app. Other accounts you create are accessed via a username/password that are stored only in your database.
+Subscription owners always use their REV23 ID to access their app. Other accounts you create are accessed via a username/password that are stored only in your database.
 
-Using REV23 ID is fast and secure and offers a few benefits. For example, if you have multiple subscriptions you can quickly switch between them.
+Using REV23 ID is fast and secure and offers a few benefits. For example, if you have multiple subscriptions you can quickly switch between them, likewise if you have only one tenant, it will automatically know which tenant to log you in to, so you don't need to type the name.
 
 On the login screen of the app you will see the two login options. Choose the appropriate login method. In general, the owner will use REV23 ID, artists and counter staff will use a username/password.
 
-> Inviting users to your app via their REV23 is coming soon! This will allow you to invite artists that have or want to use REV23 to your studio, and make it easier for guest artists who already use REV23 to easily integrate into your subscription for that limited time.
+> **REV23 ID Guest Accounts**: Users can link their REV23 ID to their user account by ensuring that the email addresses match. Upon their initial login attempt using REV23 ID, their accounts will automatically link. This action adds them as a guest to your tenant, enabling streamlined login experiences without the need to enter the tenant name repeatedly. Guests can easily switch between multiple tenants they have access to.
 
 ## Security
 

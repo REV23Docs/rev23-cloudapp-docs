@@ -34,7 +34,11 @@ One or both of these steps are skipped if:
 
 After a service type is selected, the customer is presented with a list of users to select who is performing the service.
 
-Only users which have a seat assigned and have no studios assigned or have a studio assignment in the selected studio will appear in this list.
+A user will only appear in this list if...
+
+- They have a seat assigned.
+- They have a category or service type license for the selected service type.
+- If you have multiple studios, they have a studio assignment in the current studio, or, have zero studio assignments, meaning they are in all.
 
 This step is skipped if there is only one user detected as having a seat and assigned to the selected service type.
 
