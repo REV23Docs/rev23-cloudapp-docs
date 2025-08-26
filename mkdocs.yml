@@ -47,11 +47,15 @@ nav:
       - Piercing: 'settings/piercing.md'
       - Needles: 'settings/needles.md'
       - iPad:
+        - 'Portfolio': ipad/portfolio.md
         - 'Passcode': ipad/passcode.md
         - 'Cache': ipad/cache.md
     - API:
       - 'Overview': api/overview.md
       - 'Status Codes': api/status-codes.md
+    - Versions:
+      - 'iOS': versions/ios.md
+      - 'Web': versions/web.md
     - About:
       - 'License': license.md
       - 'Release Notes': release-notes.md

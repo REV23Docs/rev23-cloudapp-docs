@@ -34,6 +34,8 @@ Next, tap the `End Session` link and set the end time. This is the action that a
 
 If a customer email was provided, a link to the PDF will be sent to them.
 
+> If the session is not ended after 7 days, a PDF form will be automatically generated to that it exists in a PDF form, however it will not be emailedd to the customer.
+
 **Congratulations!** You've completed your first release form in REV23! Of course there are many additional things you can do such as attaching files, recording supplies, adding notes and more.
 
 Dig in to the remaining user guide topics for additional information!
