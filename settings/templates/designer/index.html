@@ -916,13 +916,13 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#release-form-options" class="md-nav__link">
+  <a href="#release-form-settings" class="md-nav__link">
     <span class="md-ellipsis">
-      Release Form Options
+      Release Form Settings
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Release Form Options">
+    <nav class="md-nav" aria-label="Release Form Settings">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1569,13 +1569,13 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#release-form-options" class="md-nav__link">
+  <a href="#release-form-settings" class="md-nav__link">
     <span class="md-ellipsis">
-      Release Form Options
+      Release Form Settings
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Release Form Options">
+    <nav class="md-nav" aria-label="Release Form Settings">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1727,7 +1727,7 @@
 <p>A <strong>section</strong> is simply a group of blocks.</p>
 <p>Depending on your needs your template may have just one section and one paragraph block, or it may be broken down into multiple sections with a full length questionnaire. This is entirely up to you!</p>
 <p>The outline of a template design looks like this</p>
-<pre><code>- Start Message (optional)
+<pre><code class="language-text">- Start Message (optional)
 
 Sections
 └─ Section 1 (At least one section is required per template)
@@ -1741,7 +1741,7 @@ Sections
 - Finish Message (optional)
 </code></pre>
 <p>Let&rsquo;s look at a practical example</p>
-<pre><code>- Start Message
+<pre><code class="language-text">- Start Message
     &quot;Welcome to &lt;studio name&gt;!&quot;
 
 Sections
@@ -1771,17 +1771,17 @@ Sections
 </li>
 <li>
 <p><strong>Paper Kind</strong>: The size of paper you wish to generate the document with for printing purposes.</p>
-<ul>
+</li>
 <li>Letter</li>
 <li>Legal</li>
-<li>A4</li>
-</ul>
+<li>
+<p>A4</p>
 </li>
 <li>
 <p><strong>Show Logo</strong>: If checked, your studio logo (if available) will be printed on the generated document.</p>
 </li>
 </ul>
-<h3 id="release-form-options">Release Form Options</h3>
+<h3 id="release-form-settings">Release Form Settings</h3>
 <blockquote>
 <p>Currently, Templates are limited to release forms. Soon you will use templates for Deposits and other scenarios.</p>
 </blockquote>
@@ -1910,7 +1910,7 @@ Sections
 <p>A block that allows the customer to answer a yes or no question.</p>
 <p>This block type has an additional setting of <strong>Required Value</strong> which enforces the customer select a particular value. If a value other than the required value is chosen, they are not allowed to proceed with filling out the form.</p>
 <p>A required value allows for <em>Must answer Yes</em>, <em>Must answer No</em>, or <em>Accept Any</em>, which means either value is acceptable. A common example of this type of entry is:</p>
-<pre><code>Text: Are you currently pregnant or breast-feeding?
+<pre><code class="language-text">Text: Are you currently pregnant or breast-feeding?
 Required Value: Must answer no
 </code></pre>
 <p>If the customer answers <em>Yes</em> to this question, the form cannot proceed.</p>
@@ -1923,7 +1923,7 @@ Required Value: Must answer no
 <p>This photo is included on the generated document.</p>
 <p><a href="document-upload"></a></p>
 <h3 id="document-upload">Document Upload</h3>
-<p>A block that allows the upload of a document. On web this block shows an upload box allowing the customer to select a file from their computer. On iPad this block shows a document scanner which automatically crops, straightens and converts the image to black &amp; white and stores it as a PDF. </p>
+<p>A block that allows the upload of a document. On web this block shows an upload box allowing the customer to select a file from their computer. On iPad this block shows a document scanner which automatically crops, straightens and converts the image to black &amp; white and stores it as a PDF.</p>
 <p>The document is included as a link only in the generated document.</p>
 <p><a href="#template-mappings"></a></p>
 <h2 id="template-mappings">Template Mappings</h2>
@@ -1937,19 +1937,19 @@ Required Value: Must answer no
 <table>
 <thead>
 <tr>
-<th>Type</th>
+<th>Type (Preferred)</th>
 <th>Or</th>
 <th>&hellip; To Get</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><code>*Italic*</code></td>
 <td><code>_Italic_</code></td>
+<td><code>*Italic*</code></td>
 <td><em>Italic</em></td>
 </tr>
 <tr>
-<td><code>*Bold*</code></td>
+<td><code>**Bold**</code></td>
 <td><code>__Bold__</code></td>
 <td><strong>Bold</strong></td>
 </tr>
