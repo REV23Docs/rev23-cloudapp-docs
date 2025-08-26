@@ -12,6 +12,6 @@ While powerful, templates are easy to set up. Check the [Template Designer](../s
 
 > The _Template Designer_ is currently available in the web app only. The templates you design there are of course available to the iPad app.
 
-### Mappings
+## Mappings
 
 You can have separate templates for each service category type (Tattoo, Piercing, Microblading, PMU, Removal). When you have created a Template you need to [map](../settings/templates/mappings.md) that template to the category.

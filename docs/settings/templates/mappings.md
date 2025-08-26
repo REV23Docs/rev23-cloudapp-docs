@@ -4,7 +4,7 @@ Template mappings represent the link between a template and a particular service
 
 For example, mapping the desired tattoo release form to the tattoo service type.
 
-To map a template 
+To map a template
 
 1. Go to **Settings** > **Templates** > **Mappings**
 2. Find the desired category type.

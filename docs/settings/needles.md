@@ -16,8 +16,12 @@ A needle is a bit more detailed object than others as it contains multiple field
 
 > **Service Categories Note:** The Categories field can accept multiple Category Types, for example needles that are used in Tattooing and Permanent Makeup.
 
+## Properties
+
 ### Manufacturers
+
 Manufacturers (brands) of needles. When searching for ink to add to a session you can easily filter by these manufacturers.
 
 ## Security
+
 The permissions for editing these objects are controlled by the `Needle Config` permission set.

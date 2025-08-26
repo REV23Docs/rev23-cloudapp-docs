@@ -2,7 +2,6 @@
 
 The list of medical conditions are displayed while filling out a release form in [Kiosk](../concepts/kiosk.md) and on the [Customer](../concepts/customers.md) profile page. From the customer profile page a user can also quickly add a new condition (i.e. Prone to Fainting) if a newly discovered condition pops up mid-session.
 
-
 |Field|Purpose|
 |-|-|
 |**Name**|The name of the medical condition|
@@ -12,6 +11,7 @@ The list of medical conditions are displayed while filling out a release form in
 |**Display Order** (_hidden_)|You can control the position of the medical condition by dragging/dropping it to the desired position on both web and iPad platforms.|
 
 <a href="#input-types"></a>
+
 ## Input Types
 
 Input types control how the medical condition will appear to be entered.
@@ -23,6 +23,7 @@ Input types control how the medical condition will appear to be entered.
 |**Text**|A text field for the customer to type any additional data (i.e. "Other")|
 
 ## Security
+
 There is a special `medical:customer` permission for [Users](../concepts/users.md) which controls the ability to see a customer's medical conditions in their profile.
 
 The permissions for creating/editing these objects are controlled by the `Medical` permission set.

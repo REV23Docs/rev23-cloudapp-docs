@@ -12,5 +12,4 @@ Check the [Overview](overview.md) to get started with the basics of using the ap
 
 - Follow us on Instagram [@rev23dev](https://www.instagram.com/rev23dev)
 
-- Send support and technical questions to [support@rev23.com](mailto:support@rev23.com)
-
+- Send support and technical questions to [support@rev23.com](mailto:support@rev23.com

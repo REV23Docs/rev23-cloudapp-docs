@@ -24,13 +24,14 @@ The possibilities of webhooks are limitless! Want to start a robot mop to clean 
 
 > Webhooks is an advanced feature. There may be an additional fee to use this feature of the app in future versions. While we support webhooks, our support team cannot help you design or troubleshoot these in other services.
 
-
 ## Security Considerations
+
 To use webhooks, users require the `subscribe:webhook` permission (located in [users](./users.md)). You must evaluate if a user truly should have this permission, because in some cases it ignores other permissions.
 
 Because webhooks are just events that are triggered blindly when something happens in REV23, this gives users the potential to 'siphon' data. For example, a user could create a webhook to copy customer data when new customers are created to another app of their choosing... a Google Sheets spreadsheet, or even to another REV23 Cloud subscription. If you do not want your users to be able to have this level of access to your data, you should not permit their use of webhooks.
 
 ## Two-way Synchronization Warning
+
 While technically possible, these services are not intended for keeping two apps completely in sync and you can encounter endless loops. If such loops are detected your account on either side of the integration may be disabled or blocked.
 
 Consider the following scenario of two webhooks:
@@ -46,10 +47,11 @@ While you could design your webhooks to attempt to handle such things, by locati
 Because of this, we **strongly discourage** you from attempting scenarios that could result in endless loops. Your integrations should be one way only.
 
 ## Zapier
+
 We currently only support Webhooks via Zapier. An online automation tool that connects two or more apps/services. Zapier makes it easy to design your workflows (Zaps) and automate many tasks! Find the REV23 app when designing your Zap to get started!
 
 [Zapier - REV23 Integrations](https://zapier.com/apps/rev23/integrations)
 
-
 ## Other and custom webhooks
+
 We will be adding support for IFTTT in the future. Additionally, we are considering allowing custom webhook subscriptions for more advanced users to integrate into their own websites or databases.

@@ -8,7 +8,7 @@ All a Flag object needs is a **Name**. You can configure this list as needed.
 
 Flags optionally allow for using the `:` character as a separator for using categories. For example, you can use `Behavior: Anger Issues` and `Behavior: Disrespectful`. The user interface will then group these together.
 
-```
+```text
 Behavoir
 └─ Anger Issues
 └─ Disrespectful
@@ -17,4 +17,5 @@ Behavoir
 Categories are not required, but are recommended to help with organization if you have a large number of flags.
 
 ## Security
+
 The permissions for creating/editing these objects are controlled by the `Customer Config` permission set.

@@ -7,6 +7,7 @@ These objects are used for recording supplies used in **Tattoo**, **Microblading
 <a href="ink"></a>
 
 ## Ink
+
 Store your ink for adding to a service session, recording the expiration date and lot number.
 
 Ink is a bit more detailed object than others in this list as it contains multiple fields.
@@ -24,21 +25,27 @@ Ink is a bit more detailed object than others in this list as it contains multip
 <a href="#ink-colors"></a>
 
 ### Colors
+
 Ink colors are base colors of ink. Green, Red, Blue, Purple, etc... these are not meant to be the specific names of ink. That is what the **Name** field of the Ink object is for. When searching for ink to add to a session you can easily filter by these colors. There is little reason to add to or edit this list as we have most bases covered here.
 
 <a href="#ink-manufacturers"></a>
 
 ### Manufacturers
+
 Manufacturers (brands) of inks. When searching for ink to add to a session you can easily filter by these manufacturers.
 
 ## Tubes
+
 Tubes. Only a **Name** field is required. When adding to a session you are prompted for the lot number and expiration date.
 
 ## Grips
+
 Grips. Only a **Name** field is required. When adding to a session you are prompted for the lot number and expiration date.
 
 ## Salves
+
 Salves. Only a **Name** field is required.
 
 ## Security
+
 The permissions for creating/editing these objects are controlled by the `Tattoo Config` permission set.

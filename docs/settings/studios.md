@@ -11,5 +11,5 @@ In addition to physical locations, whether across the street or across the count
 When you log onto the app you will be prompted for which studio you wish to view. You can then easily switch between them from the menu.
 
 ## Security
-The permissions for creating/editing these objects are controlled by the `Studio` permission set.
 
+The permissions for creating/editing these objects are controlled by the `Studio` permission set.

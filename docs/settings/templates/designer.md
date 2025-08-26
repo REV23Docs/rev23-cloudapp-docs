@@ -10,10 +10,9 @@ A **section** is simply a group of blocks.
 
 Depending on your needs your template may have just one section and one paragraph block, or it may be broken down into multiple sections with a full length questionnaire. This is entirely up to you!
 
-
 The outline of a template design looks like this
 
-```
+```text
 - Start Message (optional)
 
 Sections
@@ -30,7 +29,7 @@ Sections
 
 Let's look at a practical example
 
-```
+```text
 - Start Message
     "Welcome to <studio name>!"
 
@@ -52,7 +51,6 @@ Sections
 
 As you can see a template can be very flexible and powerful.
 
-
 ## Template Options
 
 ### Common Options
@@ -62,16 +60,15 @@ As you can see a template can be very flexible and powerful.
 - **Title**: The title of the template which will be printed on the top of the generated document.
 
 - **Paper Kind**: The size of paper you wish to generate the document with for printing purposes.
-    - Letter
-    - Legal
-    - A4
+  - Letter
+  - Legal
+  - A4
 
 - **Show Logo**: If checked, your studio logo (if available) will be printed on the generated document.
 
-### Release Form Options
+### Release Form Settings
 
 > Currently, Templates are limited to release forms. Soon you will use templates for Deposits and other scenarios.
-
 
 Release Form templates have additional settings.
 
@@ -88,7 +85,9 @@ Release Form templates have additional settings.
 - **Show Medical Conditions**: If checked, the medical conditions table will be shown on the generated document. This does not control whether they are displayed to the customer in Kiosk.
 
 <a name="age-requirements"></a>
+
 #### Age Requirements
+
 You can specify the customer age rules for filling out a form within the template. There are two settings to control the behavior of the form.
 
 1. **Required Age**: This is the required age in order to fill out this form without a parent or guardian. In most cases, this is 18.
@@ -97,10 +96,9 @@ You can specify the customer age rules for filling out a form within the templat
     - **If blank**, this means that even if a parent/guardian is present, you do not offer this service. For example, if you do not tattoo minors, period, leave this blank.
     - **If set**, this is the minimum age that is able to fill out this form. For example, if you pierce minors, but require they be at least 8 years old, set this to 8. If you have no minimum, set this to 0.
 
-
 ## Start/Finish Messages
-Each template has two designated sections on the top (start message) and bottom (finish message). These allow you to provide instructions for filling out the form, as well as instructions for after the form has been completed. These do not show up on your release form and are cues to customer via the user interface only.
 
+Each template has two designated sections on the top (start message) and bottom (finish message). These allow you to provide instructions for filling out the form, as well as instructions for after the form has been completed. These do not show up on your release form and are cues to customer via the user interface only.
 
 ## Sections
 
@@ -141,24 +139,30 @@ All blocks (except **Paragraph**) have additional common options. Common options
 Some blocks are obvious to how they will behave. Others have special behaviors or options that are important to know.
 
 <a href="#initials-entry"></a>
+
 ### Initials Entry
+
 A block that requests the initials of the customer be typed in. For example customer 'John Doe' will required initials `JD` to be entered.
 
 If this block is placed in a section designated as a Parent/Guardian section, this will require the Guardian's initials instead of the customer.
 
 <a href="#select-entry"></a>
+
 ### Select Entry
+
 A block that allows the customer to select from a list of predefined values. To use this block you must add items to the the list. This will appear as a dropdown box or popup depending on the platform.
 
 <a href="#yesno-entry"></a>
+
 ### Yes/No Entry
+
 A block that allows the customer to answer a yes or no question.
 
 This block type has an additional setting of **Required Value** which enforces the customer select a particular value. If a value other than the required value is chosen, they are not allowed to proceed with filling out the form.
 
 A required value allows for _Must answer Yes_, _Must answer No_, or _Accept Any_, which means either value is acceptable. A common example of this type of entry is:
 
-```
+```text
 Text: Are you currently pregnant or breast-feeding?
 Required Value: Must answer no
 ```
@@ -168,35 +172,39 @@ If the customer answers _Yes_ to this question, the form cannot proceed.
 > The rendered input of this block changes depending on the **Required** setting. If Required, individual Yes & No buttons are displayed, no default is selected and the customer must choose one of them. If this block is not required, an on/off switch is displayed, where the default value is no (off).
 
 <a href="photo-upload"></a>
+
 ### Photo Upload
+
 A block that allows the upload of a photo. On web this block shows an upload box allowing the customer to select a file from their computer. On iPad this block shows the camera.
 
 This photo is included on the generated document.
 
 <a href="document-upload"></a>
+
 ### Document Upload
-A block that allows the upload of a document. On web this block shows an upload box allowing the customer to select a file from their computer. On iPad this block shows a document scanner which automatically crops, straightens and converts the image to black & white and stores it as a PDF. 
+
+A block that allows the upload of a document. On web this block shows an upload box allowing the customer to select a file from their computer. On iPad this block shows a document scanner which automatically crops, straightens and converts the image to black & white and stores it as a PDF.
 
 The document is included as a link only in the generated document.
 
 <a href="#template-mappings"></a>
+
 ## Template Mappings
 
 After you've created your template you must map it to a Service Category Type. Go to Settings > Templates > Mappings and remove any existing mapping from the desired category and add your new template.
 
 > Future versions will allow multiple templates per service type.
 
-
 ## Markdown
 
-REV23 allows you to format your templates with Markdown to add **bold** and *emphasized* text, formatted lists, and more. **You can learn how to use Markdown in just a couple of minutes** to add additional structure and clarity to your templates. Markdown is used across many popular websites including Reddit, and even this very user guide, so you can take this knowledge with you to other corners of the web.
+REV23 allows you to format your templates with Markdown to add **bold** and _emphasized_ text, formatted lists, and more. **You can learn how to use Markdown in just a couple of minutes** to add additional structure and clarity to your templates. Markdown is used across many popular websites including Reddit, and even this very user guide, so you can take this knowledge with you to other corners of the web.
 
 Examples of Markdown:
 
-|Type|Or|... To Get| 
+|Type (Preferred)|Or|... To Get|
 | - | - | - |
-| `*Italic*` | `_Italic_` | *Italic* |
-| `*Bold*` | `__Bold__` | **Bold** |
+| `_Italic_` | `*Italic*` | _Italic_ |
+| `**Bold**` | `__Bold__` | **Bold** |
 
 REV23 supports basic Markdown only. For security, formatting and/or usability reasons, some features such as using raw HTML are disabled.
 

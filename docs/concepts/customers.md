@@ -3,6 +3,7 @@
 Customers represent ... ok look, you know what a customer is. Here's the important stuff to know.
 
 ## Creating Customers
+
 In general customers are mainly meant to create themselves via [Kiosk](kiosk.md). In fact, currently iPad doesn't have a "New Customer" button.
 
 ## Importing Customers
@@ -53,7 +54,7 @@ There are two methods for merging a duplicate customers.
 
 This will merge services, notes, files and more, as well as attempt to fill gaps in the data, using the most recent entered information first.
 
-# Webhooks
+## Webhooks
 
 Customers support the following [webhook](./webhooks.md) events:
 

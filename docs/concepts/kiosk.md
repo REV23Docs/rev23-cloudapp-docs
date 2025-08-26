@@ -26,8 +26,8 @@ Only service types which have a [mapping](../settings/templates/mappings.md) and
 
 One or both of these steps are skipped if:
 
-- There is only one (1) detected category, i.e. if you are a tattoo only studio, the category selection will be skipped 
-    - and/or
+- There is only one (1) detected category, i.e. if you are a tattoo only studio, the category selection will be skipped
+  - and/or
 - There is only one detected service type in the category. For example, if you only have one (1) tattoo service type in the category, the service type selection will be skipped after the category is selected.
 
 ### User Selection
@@ -88,7 +88,7 @@ The customer is prompted to sign the form. Depending on various scenarios this m
 
 |Signature|Displayed if...|
 |-|-|
-|**Customer Signature**|Customer age is greater than or equal to the ```Required Age``` **OR** a guardian was required and the ```Require Minor Signature``` setting is set in the template. If you do not require minors to sign, turn this setting off. i.e. customer is legal age, or they are a minor and you require minor signatures.
+|**Customer Signature**|Customer age is greater than or equal to the ```Required Age``` **OR** a guardian was required and the ```Require Minor Signature``` setting is set in the template. If you do not require minors to sign, turn this setting off. i.e. customer is legal age, or they are a minor and you require minor signatures.|
 |**Guardian Signature**|The customer is less than the ```Required Age```. (i.e. a guardian is required.)|
 |**User (Provider) Signature**|The ```Require User Signature``` setting is set in the template.|
 
@@ -105,11 +105,13 @@ Say "cheese!" A customer is then prompted to _optionally_ add a picture of their
 Once complete, the ```Finish Message``` of the template is displayed (if set). After a short period of time Kiosk restarts and is ready for the next customer.
 
 <a href="#guided-access-ipad"></a>
+
 ## Guided Access (iPad)
 
 Guided Access is a feature of iPadOS to lock a user into a specific app, disabling the home button or other features of the device. This is particularly useful if you intend to leave one or more iPads unattended for customers to use for filling out their forms.
 
 ### Setup Guided Access
+
 1. Go to iPad Settings
 2. Tap Accessibility
 3. Tap Guided Access
@@ -118,15 +120,17 @@ Guided Access is a feature of iPadOS to lock a user into a specific app, disabli
 6. Set the Display Auto-Lock (for unattended iPads, this should probably be `Never`).
 
 ### Enter Guided Access
+
 1. Open the REV23 app.
 2. Depending on your iPad, you will enter Guided Access by
     - Triple-clicking the Top Button (on iPads without a Home button)
-    - Triple-clicking the Home Button 
+    - Triple-clicking the Home Button
 3. Enter Kiosk mode from the main menu.
 
 ### Exiting Guided Access
 
-Depending on your iPad, you will exit Guided Access by
+Depending on your iPad, you will exit Guided Access by:
+
 - Double-clicking the Top Button (on iPads without a Home button)
 - Double-clicking the Home Button
 

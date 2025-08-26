@@ -4,7 +4,6 @@ REV23 CloudApp is currently accessible from a website and a dedicated iPadOS app
 
 While each of these platforms are part of the same "app" they are completely separate experiences and code. As a result you may notice features or interfaces that are different from the other.
 
-
 ## iPadOS
 
 The iPadOS app is a dedicated app, installed from the Apple App Store. For daily usage of artists, the iPadOS app is the best choice.

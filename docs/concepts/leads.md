@@ -16,11 +16,11 @@ Direct them to the /list page of your REV23 site (i.e. https://`yourdomain`.rev2
 
 ## Searching Leads
 
-When you have a no show or cancellation and want to fill it quick, check your leads! You can go to the Leads list in the app. Using filters you can quickly narrow down to who you want to call to bring in. 
+When you have a no show or cancellation and want to fill it quick, check your leads! You can go to the Leads list in the app. Using filters you can quickly narrow down to who you want to call to bring in.
 
 For example, "Available now" will look at customer who have availability during that day of week and time of day.
 
-# Webhooks
+## Webhooks
 
 Leads support the following [webhook](./webhooks.md) events:
 

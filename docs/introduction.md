@@ -1,6 +1,6 @@
-# Welcome to REV23: The App!
+# Welcome to REV23 Cloud
 
-REV23 (CloudApp) is the next step in the evolution of REV23! Our flagship software, REV23 Desktop has been available for Microsoft Windows since 2010 and is fully featured. It is the oldest software specifically designed for the tattoo industry. REV23 Desktop is used and trusted by many of the most successful names and businesses in the industry!
+REV23 Cloud is the next step in the evolution of REV23! Our flagship software, REV23 Desktop has been available for Microsoft Windows since 2010 and is fully featured. It is the oldest software specifically designed for the tattoo industry. REV23 Desktop is used and trusted by many of the most successful names and businesses in the industry!
 
 With REV23 (the app) we have started from scratch, bringing the best of Desktop to cloud and mobile!
 
