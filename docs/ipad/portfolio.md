@@ -1,6 +1,6 @@
 # Portfolio
 
-When [Kiosk](./kiosk.md) is idle you can optionally have a slide show display.
+When [Kiosk](../concepts/kiosk.md) is idle you can optionally have a slide show display.
 
 To configure Portflio go to Settings > Portfolio and enable the slide show.
 

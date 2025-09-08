@@ -22,7 +22,7 @@ A customer is first prompted with the service they wish to have done. First by s
 
 You can select multiple service types, as long as they are in the same type category. For example, you can combine multiple piercings, but you cannot combine a tattoo and a piercing and two forms will need to be filled out.
 
-Only service types which have a [mapping](../settings/templates/mappings.md) and [users](users.md#service-types) with an assigned seat will appear in this list.
+Only service types which have a [mapping](../template-designer/mappings.md) and [users](users.md#service-types) with an assigned seat will appear in this list.
 
 One or both of these steps are skipped if:
 

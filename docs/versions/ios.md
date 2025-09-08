@@ -1,5 +1,10 @@
 # iOS Version History
 
+## 1.3.6 (2025 Sept 8)
+
+- Fixed a bug that prevented login on iOS 26 (beta)
+- Introduced a (proposed) fix for a bug that would sometimes result in a 404 error when editing a session's details such as price or placement. Since we've never been able to reproduce this one is a stab in the dark.
+
 ## 1.3.5 (2025 Jul 31)
 
 ### Find Duplicate Customers

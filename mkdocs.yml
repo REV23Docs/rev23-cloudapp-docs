@@ -40,9 +40,6 @@ nav:
         - 'Sources': settings/sources.md
       - Services:
         - 'Service Types': settings/service-types.md
-        - Templates:
-          - 'Designer': settings/templates/designer.md
-          - 'Template Mappings': settings/templates/mappings.md
       - Tattoo: 'settings/tattoo.md'
       - Piercing: 'settings/piercing.md'
       - Needles: 'settings/needles.md'
@@ -50,6 +47,9 @@ nav:
         - 'Portfolio': ipad/portfolio.md
         - 'Passcode': ipad/passcode.md
         - 'Cache': ipad/cache.md
+    - Templates:
+          - 'Designer': template-designer/index.md
+          - 'Template Mappings': template-designer/mappings.md 
     - API:
       - 'Overview': api/overview.md
       - 'Status Codes': api/status-codes.md

@@ -85,7 +85,7 @@ For more control, you can assign licenses for specific service types. Again, mos
 
 ## Signature
 
-You may provide a default signature for providers to apply to release forms. This is useful if your form requires the provider signature but you do not require it be signed each time. Set the signature in the user page in the app. You may then disable the "Require provider signature" setting in the [Template Designer](../settings/templates/designer.md). If that setting is enabled it will always use the signed version  from Kiosk rather than this default.
+You may provide a default signature for providers to apply to release forms. This is useful if your form requires the provider signature but you do not require it be signed each time. Set the signature in the user page in the app. You may then disable the "Require provider signature" setting in the [Template Designer](../template-designer/index.md). If that setting is enabled it will always use the signed version  from Kiosk rather than this default.
 
 ## Studios
 

@@ -8,10 +8,8 @@ A **block** is a paragraph you want your customer to read, a statement you want 
 
 Depending on your needs your template may have one section and one paragraph block, or it may be broken down into multiple sections with a full length questionnaire. This is entirely up to you!
 
-While powerful, templates are easy to set up. Check the [Template Designer](../settings/templates/designer.md) topic for detailed information.
-
-> The _Template Designer_ is currently available in the web app only. The templates you design there are of course available to the iPad app.
+While powerful, templates are easy to set up. Check the [Template Designer](../template-designer/index.md) topic for detailed information.
 
 ## Mappings
 
-You can have separate templates for each service category type (Tattoo, Piercing, Microblading, PMU, Removal). When you have created a Template you need to [map](../settings/templates/mappings.md) that template to the category.
+You can have separate templates for each service category type (Tattoo, Piercing, Microblading, PMU, Removal). When you have created a Template you need to [map](../template-designer/mappings.md) that template to the category.
