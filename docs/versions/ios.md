@@ -1,9 +1,14 @@
 # iOS Version History
 
+## 1.3.7 (2025 Sep 24)
+
+- Fixed a 404 (Not Found) error when trying to edit a session after you had previously viewed a session and left the guardian pane open.
+- Fixed an occasional 403 forbidden error when returning from Kiosk as the in-progress service list was attempted to be accessed by the Kiosk account.
+- Fixed a UI issue that caused the captions of some actions to be cut off on the bottom such as the 'Share' or 'Close' actions on image/document previews.
+
 ## 1.3.6 (2025 Sept 8)
 
 - Fixed a bug that prevented login on iOS 26 (beta)
-- Introduced a (proposed) fix for a bug that would sometimes result in a 404 error when editing a session's details such as price or placement. Since we've never been able to reproduce this one is a stab in the dark.
 
 ## 1.3.5 (2025 Jul 31)
 
