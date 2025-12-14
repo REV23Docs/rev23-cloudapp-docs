@@ -8,7 +8,7 @@
 
 ## 1.3.6 (2025 Sept 8)
 
-- Fixed a bug that prevented login on iOS 26 (beta)
+- Fixed a bug that prevented login on iOS 26
 
 ## 1.3.5 (2025 Jul 31)
 
@@ -20,19 +20,19 @@ See [Merging Duplicate Customers](../concepts/customers.md#merging-duplicate-cus
 
 ### Kiosk Exit Change
 
-The four corner tap sequence to exit Kiosk has been removed and replaced with an Exit button in the top right corner. This was based on user feedback that the tap sequence was unnecessary and tedious, potenitally slowing users down if they only have one device.
+The four corner tap sequence to exit Kiosk has been removed and replaced with an Exit button in the top right corner. This was based on user feedback that the tap sequence was unnecessary and tedious, potentially slowing users down if they only have one device.
 
 ### Kiosk Polish
 
 Kiosk has received some visual polish making required fields easier to identify, as well as new ways to exit and start over.
 
 - The start over button, previously found as a large circular button in the bottom right has been moved to the top left with a clear label as to the intent and match the new Exit button.
-- Required fields are now easier to identify by making them bold and blue with stylized lables.
+- Required fields are now easier to identify by making them bold and blue with stylized labels.
 - Markdown support has been enhanced in Templates by stylizing your headers, bullet points and more.
 
 #### Additional Changes
 
-- The ability to select and copy/paste, auto-fill text in the main app has been restored. This functionality remains disabled in Kiosk for securit and privacy reasons.
+- The ability to select and copy/paste, auto-fill text in the main app has been restored. This functionality remains disabled in Kiosk for security and privacy reasons.
 - Fixed a bug that could cause a crash when opening a user from Security > Users.
 - Signing out of REV23 ID will no longer clear your Portfolio options.
 - You can now create a user without specifying an email address, though this user will not be able to reset a forgotten password.
@@ -65,7 +65,7 @@ See [Portfolio](../ipad/portfolio.md) for more information.
 
 ### Color Customization
 
-Added color customization to users, studio, service categories and service types. Service colors are currently the most noticable, the other settings will be more subtle, but used in future updates.
+Added color customization to users, studio, service categories and service types. Service colors are currently the most noticeable, the other settings will be more subtle, but used in future updates.
 
 - Users: Overrides the system defined color for user initial colors. If not set will use the system generated color.
 - Studio: Overrides the system defined color for the studio initials. If not set will use the system generated color.
@@ -94,7 +94,7 @@ Added color customization to users, studio, service categories and service types
 - Service filter user selection is now hidden if current user does not have permission service:read.all permission.
 - When adding supplies to a session there is now better guidance when the lists are empty instead of just an empty list with an add button.
 - Some areas used an incorrect user avatar color.
-- User detail was not showing preset signatre.
+- User detail was not showing preset signature.
 - When creating a new service type the category is now set to the selected category if available.
 - Various improvements and bug fixes.
 
@@ -137,7 +137,7 @@ Added the ability to force delete to certain objects when initial deletion fails
 
 ### Flags
 
-Added [Flags](../settings/flags.md) to customers to allow you to easily flag customers to be alerted to future problematic encouters.
+Added [Flags](../settings/flags.md) to customers to allow you to easily flag customers to be alerted to future problematic encounters.
 
 #### Additional Changes
 
